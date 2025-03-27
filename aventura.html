@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/aventure.js"></script>
+    <script type="text/javascript" src="js/habilidadesHeroi.js"></script>
+    <script type="text/javascript" src="js/batalha.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <!--CSS-->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/coisasUteis.css" rel="stylesheet">
+    <link href="styles/aventure.css" rel="stylesheet">
+    <title>Aventura</title>
+  </head>
+  <body onload="abrirLAventure()">
+    <div class="fundo">
+        <audio id="audioBGM"  loop autoplay class="d-none">
+            <source src="audio/Ship2.mp3" type="audio/mpeg"></audio>
+        <audio id="audioSE" autoplay class="d-none"></audio>
+        <audio id="audioME" autoplay class="d-none"></audio>
+        <div w3-include-html="header.html"></div>
+        <div class="aventure-container">
+            <div class="aventure-titulo">
+                Aventura
+                <div class="coinsTitle">
+                    <img src="img/icons/moeda.png" alt="logo" /> <span id="quantidadeCoinsUser">0</span>
+                </div>
+            </div>
+            <div class="aventure-menus">
+                <!--Parte esquerda-->
+                <div class="aventure-menu-esquerdo">
+                    <div class="lme-container">
+                        <img src="img/background/irmaos.png" class="aventure-img-irmaos" alt="fundo" />
+                        <div id="porLugaresIncriveis" class="d-none">
+                            <div class="lugar-item" onmouseover="audioCursor()" onclick="abrirPortoSul()">
+                                <img src="img/icons/peixe.png" alt="logo" />
+                                <span>Porto Sul</span>
+                            </div>
+                            <div class="lugar-item" onmouseover="audioCursor()" onclick="abrirFloresta()">
+                                <img src="img/icons/margarida.png" alt="logo" />
+                                <span>Floresta <i>nv.1</i></span>
+                            </div>
+                            <div id="lugarPraia" class="lugar-item" onmouseover="audioCursor()" onclick="abrirPraia()">
+                                <img src="img/icons/coral.png" alt="logo" />
+                                <span>Praia <i>nv.10</i></span>
+                            </div>
+                            <div id="lugarCaverna" class="lugar-item" onmouseover="audioCursor()" onclick="abrirCaverna()">
+                                <img src="img/icons/pedra.png" alt="logo" />
+                                <span>Caverna <i>nv.20</i></span>
+                            </div>
+                            <div id="lugarCasa" class="lugar-item" onmouseover="audioCursor()" onclick="abrirCasa()">
+                                <img src="img/icons/escuridao.png" alt="logo" />
+                                <span>Casa mal assombrada <i>nv.30</i></span>
+                            </div>
+                            <div id="lugarMontanha" class="lugar-item" onmouseover="audioCursor()" onclick="abrirMontanha()">
+                                <img src="img/icons/pena.png" alt="logo" />
+                                <span>Montanhas <i>nv.40</i></span>
+                            </div>
+                            <div id="lugarCastelo" class="lugar-item" onmouseover="audioCursor()" onclick="abrirCastelo()">
+                                <img src="img/icons/assasinato.png" alt="logo" />
+                                <span>Castelo das Sombras <i>nv.50</i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Meio-->
+                <div id="menuDoMeio" class="aventure-menu-meio" onclick="renderNextMessage()">
+                    <!--<img src="img/background/Bigtree.png" class="aventure-background" alt="fundo" />-->
+                    <div id="mensagens" class="mensagem d-none">
+                        <div id="mensagemFace" class="mensagemFace">
+                            <img src="img/face/gimble_gamble.jpg" alt="face" />
+                        </div>
+                        <div id="mensagemCorpo" class="mensagemCorpo">
+                            <span>...</span>
+                        </div>
+                    </div>
+                    <!--Inimigos-->
+                    <div id="grupoInimigos" class="grupoInimigos d-none">
+                        <div id="inimigo0" class="inimigo" onmouseover="audioCursorMonstro()" onclick="selecionarInimigo(0)">
+                            <img src="img/monsters/abelha.png" alt="monstro" class="monstro" />
+                        </div>
+                        <div id="inimigo1" class="inimigo" onmouseover="audioCursorMonstro()" onclick="selecionarInimigo(1)">
+                            <img src="img/monsters/abelha.png" alt="monstro" class="monstro" />
+                        </div>
+                        <div id="inimigo2" class="inimigo" onmouseover="audioCursorMonstro()" onclick="selecionarInimigo(2)">
+                            <img src="img/monsters/abelha.png" alt="monstro" class="monstro" />
+                        </div>
+                        <!--Mensagens Batalha-->
+                        <div id="mensagensNaBatalha" class="mensagensNaBatalha"></div>
+                        <!--Batalha Comandos-->
+                        <div id="batalhaComandos" class="batalhaComandos d-none">
+                            <div id="batalhaFace" class="batalhaFace">
+                                <div class="conteinerBatalhaFace">
+                                    <h3 id="danoHeroi" class="danoHeroi d-none">-500</h3>
+                                </div>
+                                    
+                                    <img id="imagemPerfilBatalha" src="img/face/gimble_gamble.jpg" alt="face" />
+                                    <div class="barHpMp">
+                                        <div id="barHPBatle" class="barHP" style="width: 100%;"></div>
+                                    </div>
+                                    <div class="barHpMp">
+                                        <div id="barMPBatle" class="barMP" style="width: 100%;"></div>
+                                    </div>
+                                
+                            </div>
+                            <div id="batalhaCancelarButton" class="batalhaCancelarButton d-none" onmouseover="audioCursor()" onclick="voltarAosComandos()">
+                                <span>Cancelar</span>
+                            </div>
+                            <div id="batalhaAtaque" class="batalhaAtaque disabled" onmouseover="audioCursor()" onclick="atacar()">
+                                <img id="iconAtacar" src="img/icons/socoForte.png" alt="face" />
+                                <span class="m-5">Atacar</span>
+                            </div>
+                            <div id="batalhaMagia" class="batalhaMagia disabled" onmouseover="audioCursor()" onclick="getHabilidadesHeroi()">
+                                <img src="img/icons/magica.png" alt="face" />
+                                <span class="m-5">Habilidades</span>
+                            </div>
+                            <div id="batalhaDefender" class="batalhaDefender disabled" onmouseover="audioCursor()" onclick="getItensHeroi()">
+                                <img src="img/icons/saquinho.png" alt="face" />
+                                <span class="m-5">Itens</span>
+                            </div>
+                            <div id="batalhaFugir" class="batalhaFugir disabled" onmouseover="audioCursor()" onclick="fugir()">
+                                <img src="img/icons/fugir.png" alt="face" />
+                                <span class="m-5">Fugir</span>
+                            </div>
+                        </div>
+                        <!--Janela Habilidades-->
+                        <div id="janelaHabilidade" class="janelaHabilidade d-none">
+                            <div id="listaHabilidades" class="listaHabilidades">
+                                <div id="listaHabilidades">
+
+                                </div>
+                            </div>
+                            <div id="descriHabilidade" class="descriHabilidade">
+                                
+                            </div>
+                        </div>
+                        <!--Venceu inimigos-->
+                        <div id="janelaVitoria" class="janelaVitoria d-none">
+                            
+                        </div>
+                        <!--Passou de nivel-->
+                        <div id="janelaNovoNivel" class="janelaNovoNivel d-none"></div>
+                    </div>
+                    <div id="cena" class="cena d-none">
+                        <!--Porto Sul-->
+                        <div id="opcoesPortoSul" class="menuOpcoesLugar d-block">
+                            <h3>Porto Sul</h3>
+                            <hr/>
+                            <button class="button-azul" onmouseover="audioCursor()" onclick="abrirINN()">INN</button>
+                            <button class="button-laranja" onmouseover="audioCursor()" onclick="abirLoja()">Loja</button>
+                        </div>
+                        <!--Floresta-->
+                        <div id="opcoesFloresta" class="menuOpcoesLugar d-none">
+                            <h3>Floresta</h3>
+                            <hr/>
+                            <button class="button-laranja" onmouseover="audioCursor()" onclick="explorarFloresta()">Explorar</button>
+                        </div>
+                        <!--Praia-->
+                        <div id="opcoesPraia" class="menuOpcoesLugar d-none">
+                            <h3>Praia</h3>
+                            <hr/>
+                            <button class="button-laranja" onmouseover="audioCursor()" onclick="explorarPraia()">Explorar</button>
+                        </div>
+                        <!--Caverna-->
+                        <div id="opcoesCaverna" class="menuOpcoesLugar d-none">
+                            <h3>Cavernas</h3>
+                            <hr/>
+                            <button class="button-laranja" onmouseover="audioCursor()" onclick="explorarCavernas()">Explorar</button>
+                        </div>
+                        <!--Casa mal Assombrada-->
+                        <div id="opcoesCasaMalAssombrada" class="menuOpcoesLugar d-none">
+                            <h3>Casa Mal Assombrada</h3>
+                            <hr/>
+                            <button class="button-laranja" onmouseover="audioCursor()" onclick="explorarCasa()">Explorar</button>
+                        </div>
+                        <!--Monstanhas-->
+                        <div id="opcoesMontanha" class="menuOpcoesLugar d-none">
+                            <h3>Monstanhas</h3>
+                            <hr/>
+                            <button class="button-laranja" onmouseover="audioCursor()" onclick="explorarMontanhas()">Explorar</button>
+                        </div>
+                        <!--Castelo-->
+                        <div id="opcoesCastelo" class="menuOpcoesLugar d-none">
+                            <h3>Castelo das Sombras</h3>
+                            <hr/>
+                            <button class="button-laranja" onmouseover="audioCursor()" onclick="explorarCastelo()">Explorar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+    </div>
+  </body>
+</html>

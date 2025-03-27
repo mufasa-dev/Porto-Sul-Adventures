@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <!--CSS-->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/coisasUteis.css" rel="stylesheet">
+    <link href="styles/loginRegister.css" rel="stylesheet">
+    <title>Porto Sul</title>
+  </head>
+  <body onload="abrirLogin()">
+    <div class="fundo">
+        <audio id="audioSE" autoplay class="d-none"></audio>
+        <div w3-include-html="header.html"></div>
+        <div class="aventure-container">
+            <div class="aventure-titulo">
+                Login
+            </div>
+            <div class="aventure-menus">
+                <!--Meio-->
+                <div class="aventure-menu-meio" onclick="renderNextMessage()">
+                    <!--<img src="img/background/Bigtree.png" class="aventure-background" alt="fundo" />-->
+                    <div id="mensagens" class="mensagem d-none">
+                        <div id="mensagemFace" class="mensagemFace">
+                            <img src="img/face/gimble_gamble.jpg" alt="face" />
+                        </div>
+                        <div id="mensagemCorpo" class="mensagemCorpo">
+                            <span>Deu certo</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Parte esquerda-->
+                <div class="aventure-menu-esquerdo">
+                    <div class="lme-container">
+                        <img src="img/background/irmaos.png" class="aventure-img-irmaos" alt="fundo" />
+                        <div class="aventure-formulario">
+                            <span>Seu nome ou endereço de e-mail:</span><br />
+                            <input id="loginNome" placeholder="Nome" class="input-condado" name="filtroNome"/>
+                            <span>Senha:</span><br />
+                            <input id="loginSenha" placeholder="Senha" type="password" class="input-condado" name="filtroNome"/>
+                            <a class="a-esqueceu-senha">Esqueceu a Senha?</a>
+                            <div class="login-button-row text-right">
+                                <button class="button-condado button-login" onclick="login()">
+                                    Entrar
+                                </button>
+                            </div>
+                            <hr />
+                            <span>Não tem uma conta?</span><br />
+                            <a href="register.html">
+                                <button class="button-condado button-register">
+                                    Registre-se Agora
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+    </div>
+  </body>
+</html>

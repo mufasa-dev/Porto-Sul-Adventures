@@ -1,0 +1,460 @@
+.aventure-container{
+    width: calc(80% - 40px);
+    padding: 10px 10%;
+    position: relative;
+}
+
+.aventure-titulo{
+    position: relative;
+    z-index: 1;
+    background-color: #039BE5;
+    padding: 7px 0 3px 15px;
+    border-radius: 25px;
+    font-family: 'Exo 2',sans-serif;
+    margin-bottom: 5px;
+    width: calc(100% - 12.5px);
+}
+
+.aventure-menus{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: auto;
+    min-height: 550px;
+}
+
+.aventure-menu-esquerdo{
+    display: table-cell;
+    vertical-align: top;
+    width: 30%;
+    background-color: #1f2b3b;
+    border: 1px solid #171e29;
+    border-radius: 15px 0 0 15px;
+}
+
+.aventure-menu-meio{
+    display: table-cell;
+    vertical-align: top;
+    background-image: url('../img/background/Town1.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid #171e29;
+    width: 70%;
+    height: calc(100vh - 50px);
+    position: relative;
+}
+
+.aventure-menu-meio-porto-sul{
+    background-image: url('../img/background/Town1.png');
+}
+
+.aventure-menu-meio-floresta{
+    background-image: url('../img/background/Jungle.png');
+}
+
+.aventure-menu-meio-praia{
+    background-image: url('../img/background/Beach.png');
+}
+
+.aventure-menu-meio-inn{
+    background-image: url('../img/background/madeira.png');
+}
+
+.aventure-menu-meio-batleFloresta{
+    background-image: url('../img/background/floresta.png');
+}
+
+.aventure-menu-meio-batlePraia{
+    background-image: url('../img/background/Sand.png');
+}
+
+.aventure-menu-meio-caverna{
+    background-image: url('../img/background/caverna.png');
+}
+
+.aventure-menu-meio-casaMalAssombrada{
+    background-image: url('../img/background/casaAssombradaFora.png');
+}
+
+.aventure-menu-meio-casaMalAssombrada-batalha{
+    background-image: url('../img/background/casaAssombradaDentro.png');
+}
+
+.aventure-menu-meio-montanha{
+    background-image: url('../img/background/monstanhas.png');
+}
+
+.aventure-menu-meio-castelo{
+    background-image: url('../img/background/casteloEntrada.png');
+}
+
+.aventure-menu-meio-castelo-batalha{
+    background-image: url('../img/background/casteloSombra.png');
+}
+
+.aventure-menu-meio-black{
+    background: black
+}
+
+.aventure-background{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    object-fit: cover;
+}
+
+.aventure-img-irmaos{
+    width: 100%;
+    border-radius: 15px 0 0 0;
+}
+
+.aventure-formulario{
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+
+.aventure-formulario input{
+    width: calc(100% - 10px);
+    margin-bottom: 5px;
+}
+
+.a-esqueceu-senha{
+    color: #2577b1;
+    text-decoration: none;
+}
+
+.login-button-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-login{
+    width: 100%;
+    background: #47a7eb;
+}
+
+.button-register{
+    background-color: #2577b1;
+    width: 100%;
+}
+
+.avatarContainer{
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.avatarContainer img{
+    border-radius: 5px;
+}
+
+.lugar-item, .lugar-item-disabled{
+    display: flex;
+    width: calc(100% - 10px);
+    position: relative;
+    align-items: center;
+    padding: 5px 5px;
+    transition: 300ms;
+    cursor: pointer;
+    border-bottom: 1px solid #171e29;
+}
+
+.lugar-item:hover{
+    background-color: #171e29;
+}
+
+.lugar-item span{
+    margin-left: 10px;
+}
+
+.lugar-item-disabled img{
+    filter: brightness(0);
+}
+
+.lugar-item-disabled span{
+    margin-left: 10px;
+    color: #171e29;
+}
+
+.cena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grupoInimigos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.inimigo{
+    margin: 10px;
+    cursor: pointer;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.inimigo img{
+    transition: 300ms;
+}
+
+.inimigo:hover img{
+    filter: grayscale(0.5);
+}
+
+.inimigo .barHpMp{
+    width: 100px;
+    max-width: 100%;
+}
+
+.inimigo span{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 20px;
+    position: absolute;
+    top: -15px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.inimigo .danoInimigo{
+    position: absolute;
+    right: -15px;
+    border-radius: 10px;
+    transition: 300ms;
+    color: red;
+}
+
+.inimigo:hover span{
+    color: yellow;
+}
+
+.iconStatusMonstro0, .iconStatusMonstro1, .iconStatusMonstro2{
+    position: absolute;
+    bottom: 35px;
+    right: 10px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 5px;
+}
+
+.iconStatusMonstro1{
+    right: 47px;
+}
+
+.iconStatusMonstro2{
+    right: 84px;
+}
+
+.divBranca img, .divBranca img:hover{
+    filter: contrast(0);
+    opacity: 80%;
+}
+
+.inimigoMorto, .inimigoMorto:hover{
+    filter: opacity(0);
+}
+
+.mensagensNaBatalha{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: calc(100% - 40px);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menuOpcoesLugar{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.batalhaComandos{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: calc(100% - 10px);
+    max-height: 114px;
+    justify-content: center;
+}
+
+.batalhaFace{
+    display: table-cell;
+}
+
+.batalhaFace img{
+    transition: 300ms;
+}
+
+.batalhaAtaque, .batalhaMagia, .batalhaFugir, .batalhaDefender{
+    display: table-cell;
+    width: calc(25% - 25px);
+    background-color: rgba(43, 60, 82, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.batalhaAtaque:hover, .batalhaMagia:hover, .batalhaFugir:hover, .batalhaDefender:hover{
+    background-color: #1f2b3b;
+}
+
+.batalhaAtaque.disabled, .batalhaMagia.disabled, .batalhaDefender.disabled, .batalhaFugir.disabled{
+    background-color: rgba(30,30,30,0.8);
+    color: black;
+}
+
+.batalhaAtaque.disabled img, .batalhaMagia.disabled img, .batalhaDefender.disabled img, .batalhaFugir.disabled img{
+    filter: brightness(0);
+}
+
+.batalhaFace img{
+    max-width: 100%;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.batalhaCancelarButton{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 40px;
+    max-width: 150px;
+    background-color: rgba(43, 60, 82, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.janelaVitoria, .janelaNovoNivel{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.moedasRecompensa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.moedasRecompensa img{
+    margin-right: 5px;
+}
+
+.conteinerBatalhaFace{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.danoHeroi{
+    position: absolute;
+    top: -70px;
+    width: 100px;
+    font-size: 2em;
+    color: red;
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.janelaHabilidade{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: calc(100% - 50px);
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid white;
+    position: absolute;
+    height: 200px;
+}
+
+.listaHabilidades{
+    position: absolute;
+    width: calc(75% - 20px);
+    max-height: 200px;
+}
+
+.descriHabilidade{
+    position: absolute;
+    width: calc(25% - 20px);
+    padding: 5px;
+    height: 190px;
+    right: 10px;
+    background-color: rgba(43, 60, 82, 0.8);
+    border-radius: 10px;
+}
+
+.listaHabilidades{
+    overflow-y: auto;
+}
+
+.hab-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    position: relative;
+}
+
+.hab-item:hover{
+    background-color: rgba(43, 60, 82, 0.5);
+}
+
+.hab-item img{
+    margin-right: 5px;
+}
+
+.hab-mp{
+    position: absolute;
+    right: 10px;
+}
+
+.itemRec{
+    width: 32px;
+    height: 32px;
+    background-color: rgba(43, 60, 82, 0.5);
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+img.monstro {
+    max-width: 100%;
+}

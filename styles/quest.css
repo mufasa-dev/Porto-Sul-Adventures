@@ -1,0 +1,431 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.quest-container{
+    width: calc(100% - 200px);
+    padding: 20px;
+    position: relative;
+}
+
+.user-titulo{
+    position: relative;
+    z-index: 1;
+    background-color: #039BE5;
+    padding: 7px 0 3px 15px;
+    border-radius: 25px;
+    font-family: 'Exo 2',sans-serif;
+    margin-bottom: 5px;
+}
+
+.user-menus{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: auto;
+    min-height: 1px;
+}
+
+.user-menu-esquerdo{
+    display: table-cell;
+    vertical-align: top;
+    width: 20%
+}
+
+.user-menu-meio{
+    display: table-cell;
+    vertical-align: top;
+    width: 55%
+}
+
+.lme-container, .lmc-container, .lmd-container {
+    color: #efefef;
+    background: #1f2b3b;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #171e29;
+    border-right-color: #171e29;
+    border-bottom-color: #171e29;
+    border-left-color: #171e29;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.lme-header, .lmc-header, .lmd-header  {
+    padding: 6px 10px;
+    margin: 0;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2577b1;
+    background: #31435d;
+    border-bottom: 1px solid #171e29;
+    background: linear-gradient(0deg, #31435d, #28374c);
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+.lmc-header{
+    background: #039BE5;
+    color: white;
+}
+
+.lmc-body{
+    min-height: 500px;
+    padding: 5px;
+    display: flex;
+}
+
+.loja-item{
+    display: flex;
+    width: calc(100% - 10px);
+    position: relative;
+    align-items: center;
+    padding: 5px 5px;
+    transition: 300ms;
+    cursor: pointer;
+    border-bottom: 1px solid #171e29;
+}
+
+.loja-item:hover{
+    background-color: #171e29;
+}
+
+.loja-item img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.loja-item .item-preco{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.itemUsuario{
+    border: 1px solid #171e29;
+    color: #efefef;
+    background: #171e29;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: fit-content;
+    margin: 5px;
+    text-align: center;
+    display: inline-grid;
+}
+
+.itemUsuario-nome{
+    width: 100%;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+.itemUsuario img{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.avatarPerfil{
+    width: calc(100% - 30px);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.avatarPerfil:hover{
+    filter: grayscale(0.5);
+}
+
+.inventario-user{
+    display: table-cell;
+    vertical-align: top;
+    width: 55%;
+}
+
+.iventario-item-imagem{
+    width: 64px;
+    height: 64px;
+}
+
+.user-menu-direito{
+    display: table-cell;
+    vertical-align: top;
+    width: 25%
+}
+
+.opcaoBotaoQuest{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    list-style-type: none;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.opcaoBotaoQuest:hover{
+    background-color: #171e29;
+}
+
+.lateralBodyQuest{
+    padding-bottom: 10px;
+}
+
+.questAvatar{
+    width: 100%;
+    object-fit: cover;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #171E2C;
+}
+
+.itemQuest{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: calc(100% - 10px);
+    height: fit-content;
+    border-bottom: 1px solid #171E2C;
+    padding: 5px;
+}
+
+.itemQuestMini{
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.itemQuestMini:hover{
+    background-color: #171E2C;
+}
+
+.questImagem{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.3);
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.questImagemMini{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.3);
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.questStatusConcluido{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #10151d;
+    height: 15px;
+    width: 100px;
+    border: 1px solid #171e29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #1B8034, #1FB344);
+}
+
+.questStatusInProgess{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 10px;
+    background-color: #10151d;
+    height: 15px;
+    width: 100px;
+    border: 1px solid #171e29;
+}
+
+.requisitoQuest{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.requisitoQuest img, .requisitoQuest b{
+    margin-right: 5px;
+}
+
+.buttonConcluirQuest{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    display: flex;
+}
+
+.descriNivelQuest{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.iconRecompensaQuest {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.spanDescricaoQuest{
+    padding-right: 5px;
+    text-align: justify;
+}
+
+.meioQuests{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.recompensasNivel{
+    width: calc(100% - 10px);
+    background: rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.descricao100{
+    width: 100%;
+}
+
+.descricao100 textarea, .descricao100 input{
+    width: calc(100% - 20px);
+}
+
+.itemToDo{
+    position: relative;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    width: calc(100% - 20px);
+}
+
+.checkImgTodo{
+    width: 30px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    cursor: pointer;
+    transition: 300ms;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.trashImgToDo{
+    width: 30px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    transition: 300ms;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.checkImgTodo:hover{
+    background-color: rgba(0,100,0,0.5);
+}
+
+.trashImgToDo:hover{
+    background-color: rgba(100,0,0,0.5);
+}
+
+.toDoFeito{
+    text-decoration: line-through;
+    background-color: rgba(0,40,0,0.5);
+}
+
+.toDoFeito .checkImgTodo{
+    display: none;
+}
+
+.monsterContainer{
+    width: calc(100% - 20px);
+    position: relative;
+    padding: 10px;
+}
+
+.listaMonster{
+    position: absolute;
+    width: calc(70% - 20px);
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+}
+
+.descriMonster{
+    position: absolute;
+    width: calc(30% - 10px);
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.monsterName{
+    padding: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.monsterName:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.monstroDescri{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.monsterContainerImage{
+    display: flex;
+    justify-content: center;
+}
+
+.monstroDescri img{
+    display: block;
+    max-width: calc(100% - 40px);
+}
+
+.monstroDescri hr{
+    width: 100%;
+}
+
+.atributosInimigo{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.itensDoInimigo{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}

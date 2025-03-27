@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/quest.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <!--CSS-->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/coisasUteis.css" rel="stylesheet">
+    <link href="styles/quest.css" rel="stylesheet">
+    <title>Porto Sul</title>
+  </head>
+  <body onload="abrirInicioQuest()">
+    <div class="fundo">
+        <audio id="audioBGM"  loop autoplay class="d-none">
+            <source src="audio/Ship2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audioSE" autoplay class="d-none"></audio>
+        <div w3-include-html="header.html"></div>
+        <div class="container">
+            <div class="quest-container">
+                <div id="titleQuests" class="user-titulo">
+                    Quests
+                    <div class="coinsTitle">
+                        <img src="img/icons/moeda.png" alt="logo" /> <span id="quantidadeCoinsUser">0</span>
+                    </div>
+                </div>
+                <div class="user-menus">
+                    <!--Parte esquerda-->
+                    <div class="user-menu-esquerdo">
+                        <div class="lme-container">
+                            <div id="seuNomeAqui" >
+                                <img src="img/background/irmaos.png" alt="perfil" class="questAvatar">
+                            </div>
+                            <div class="lateralBodyQuest">
+                                <div class="opcaoBotaoQuest" onclick="irParaPerfil()">
+                                    Seu perfil
+                                </div>
+                                <div class="opcaoBotaoQuest" onclick="verificarSePassouDeNivel()">
+                                    Quests
+                                </div>
+                                <div class="opcaoBotaoQuest" onclick="renderToDo()">
+                                    Lista de afazeres
+                                </div>
+                                <div class="opcaoBotaoQuest" onclick="renderInimigos()">
+                                    Inimigos
+                                </div>
+                                <div class="opcaoBotaoQuest" onclick="irParaUsuarios()">
+                                    Usuários
+                                </div>
+                                <div class="opcaoBotaoQuest" onclick="renderAjuda()">
+                                    Ajuda
+                                </div>
+                                <div class="opcaoBotaoQuest" onclick="logout()">
+                                    Sair
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Meio-->
+                    <div id="meioQuests" class="loja-menu-meio">
+                        <div class="lmc-container">
+                            <div id="titleTypeItem" class="lmc-header">
+                                Quests
+                            </div>
+                            <div id="listaQuests" class="lmc-body meioQuests">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+    </div>
+  </body>
+</html>

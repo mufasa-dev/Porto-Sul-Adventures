@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/usuarios.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <!--CSS-->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/coisasUteis.css" rel="stylesheet">
+    <link href="styles/usuario.css" rel="stylesheet">
+    <title>Usuários</title>
+  </head>
+  <body onload="abrirUsuarios()">
+    <div class="fundo">
+        <audio id="audioBGM"  loop autoplay class="d-none">
+            <source src="audio/Ship2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audioSE" autoplay class="d-none"></audio>
+        <div w3-include-html="header.html"></div>
+        <div class="user-container">
+            <div class="user-titulo">
+                Usuários
+                <div class="coinsTitle">
+                    <img src="img/icons/moeda.png" alt="logo" /> <span id="quantidadeCoinsUser">0</span>
+                </div>
+            </div>
+            <div class="user-menus">
+                <!--Parte esquerda-->
+                <div class="user-menu-esquerdo">
+                    <div class="lme-container">
+                        <div class="lme-header">
+                            Filtros
+                        </div>
+                        <div class="user">
+                            <div class="filtros-row b-0">
+                                <span>
+                                    Nome:
+                                </span><br />
+                                <input id="filtroNome" placeholder="Nome" class="input-condado" name="filtroNome"/>
+                            </div>
+                            <div class="filtros-row text-right">
+                                <button class="button-condado button-filtrar" onclick="filtrarUsers()">
+                                    Filtrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Meio-->
+                <div class="loja-menu-meio">
+                    <div class="lmc-container">
+                        <div id="titleTypeItem" class="lmc-header">
+                            Usuários
+                        </div>
+                        <div id="listaUsers" class="lmc-body">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+    </div>
+  </body>
+</html>

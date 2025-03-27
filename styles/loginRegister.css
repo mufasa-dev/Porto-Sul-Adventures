@@ -1,0 +1,96 @@
+.aventure-container{
+    width: calc(80% - 40px);
+    padding: 10px 10%;
+    position: relative;
+}
+
+.aventure-titulo{
+    position: relative;
+    z-index: 1;
+    background-color: #039BE5;
+    padding: 7px 0 3px 15px;
+    border-radius: 25px;
+    font-family: 'Exo 2',sans-serif;
+    margin-bottom: 5px;
+    width: calc(100% - 12.5px);
+}
+
+.aventure-menus{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: auto;
+    min-height: 1px;
+}
+
+.aventure-menu-esquerdo{
+    display: table-cell;
+    vertical-align: top;
+    width: 30%;
+    background-color: #1f2b3b;
+    border: 1px solid #171e29;
+    border-radius: 0 15px 15px 0;
+}
+
+.aventure-menu-meio{
+    display: table-cell;
+    vertical-align: top;
+    background-image: url('../img/background/Bigtree.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid #171e29;
+    width: 70%;
+    height: calc(100vh - 50px);
+    position: relative;
+}
+
+.aventure-background{
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    object-fit: cover;
+}
+
+.aventure-img-irmaos{
+    width: 100%;
+    border-radius: 0 15px 0 0;
+}
+
+.aventure-formulario{
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+
+.aventure-formulario input{
+    width: calc(100% - 10px);
+    margin-bottom: 5px;
+}
+
+.a-esqueceu-senha{
+    color: #2577b1;
+    text-decoration: none;
+}
+
+.login-button-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-login{
+    width: 100%;
+    background: #47a7eb;
+}
+
+.button-register{
+    background-color: #2577b1;
+    width: 100%;
+}
+
+.avatarContainer{
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.avatarContainer img{
+    border-radius: 5px;
+}

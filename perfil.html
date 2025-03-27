@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/usuarios.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <!--CSS-->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/coisasUteis.css" rel="stylesheet">
+    <link href="styles/usuario.css" rel="stylesheet">
+    <title>Usuários</title>
+  </head>
+  <body onload="abrirPerfil()">
+    <div class="fundo">
+        <audio id="audioBGM"  loop autoplay class="d-none">
+            <source src="audio/Ship2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audioSE" autoplay class="d-none"></audio>
+        <div w3-include-html="header.html"></div>
+        <div class="user-container">
+            <div class="user-titulo">
+                Perfil
+                <div class="coinsTitle">
+                    <img src="img/icons/moeda.png" alt="logo" /> <span id="quantidadeCoinsUser">0</span>
+                </div>
+            </div>
+            <div class="user-menus">
+                <!--Parte esquerda-->
+                <div class="user-menu-esquerdo">
+                    <div class="lme-container">
+                        <div id="perfilNome" class="lme-header">
+                            José
+                        </div>
+                        <div class="user">
+                            <div class="itemUsuario avatarPerfil"  onclick="openModalSelectPerfil()">
+                                <div id="perfilAvatar"></div>
+                            </div>
+                            <div class="filtros-row b-0">
+                                <input id="perfilNomeInput" placeholder="Nome" class="input-condado" name="filtroNome"/>
+                            </div>
+                            <div id="itensEquipados" class="filtros-row b-0">
+                                <div id="arma" class="item-equipado">
+                                    <img src="img/icons/espada.png" alt="logo" class="item-equipado-imagem item-equipado-disable" />
+                                    <span>Nada</span>
+                                </div>
+                                <div id="escudo" class="item-equipado">
+                                    <img src="img/icons/escudo.png" alt="logo" class="item-equipado-imagem item-equipado-disable" />
+                                    <span>Nada</span>
+                                </div>
+                                <div id="roupas" class="item-equipado">
+                                    <img src="img/icons/roupaComum.png" alt="logo" class="item-equipado-imagem item-equipado-disable" />
+                                    <span>Nada</span>
+                                </div>
+                                <div id="acessorio" class="item-equipado">
+                                    <img src="img/icons/bota.png" alt="logo" class="item-equipado-imagem item-equipado-disable" />
+                                    <span>Nada</span>
+                                </div>
+                            </div>
+                            <div class="filtros-row text-right">
+                                <button class="button-condado button-filtrar" onclick="salvarPerfil()">
+                                    Salvar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="atributos" class="lme-container p-10 text-center">
+                        <b>ATK: </b> 0  +  0<br />
+                        <b>DEF: </b> 0  +  0
+                    </div>
+                </div>
+                <div class="inventario-user">
+                    <div class="lmc-container">
+                        <div id="titleTypeItem" class="lmc-header">
+                            Inventário
+                        </div>
+                        <div class="lmc-body">
+                            <div id="listaInventario">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-menu-direito">
+                    <div id="descricaoItem"  class="lmd-container">
+
+                    </div>
+                    <div id="containerFiltros" class="lmd-container">
+                        <div class="lmd-header">
+                            Filtros
+                        </div>
+                        <div class="loja-filtros-body">
+                            <div class="loja-filtros-row b-0">
+                                <span>
+                                    Nome:
+                                </span><br />
+                                <input id="filtroNome" placeholder="Nome" class="input-condado" name="filtroNome"/>
+                            </div>
+                            <div class="loja-filtros-row">
+                                <span>
+                                    Tipo:
+                                </span><br />
+                                <select id="filtroTipo" class="input-condado">
+                                    <option selected value="0" data-prefix-class="label label--accent">Todos</option>
+                                    <option value="1" data-prefix-class="label label--accent">Poção</option>
+                                    <option value="2" data-prefix-class="label label--accent">Equipamento</option>
+                                    <option value="3" data-prefix-class="label label--skyBlue">Objetos</option>
+                                </select>
+                            </div>
+                            <div class="loja-filtros-row text-right">
+                                <button class="button-condado button-filtrar" onclick="filtrar()">
+                                    Filtrar
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="modalSelectPerfil" class="modal d-none">
+            <div class="modal-content modal-half">
+                <div class="modal-header">
+                    <h3>Selecione seu Avatar</h3>
+                    <div class="modal-close" onclick="fecharModalSelectPerfil()">
+                        X
+                    </div>
+                </div>
+                <div id="modalSelectPerfilContent" class="modal-body">
+                    aaa
+                </div>
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+    </div>
+  </body>
+</html>

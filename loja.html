@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/loja.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <!--CSS-->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/coisasUteis.css" rel="stylesheet">
+    <link href="styles/loja.css" rel="stylesheet">
+    <title>A loja</title>
+  </head>
+  <body onload="abrirLoja()">
+    <div class="fundo">
+        <audio id="audioBGM"  loop autoplay class="d-none">
+            <source src="audio/Ship2.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="audioSE" autoplay class="d-none"></audio>
+        <div w3-include-html="header.html"></div>
+        <div class="loja-container">
+            <div class="loja-titulo">
+                Lojas
+                <div class="coinsTitle">
+                    <img src="img/icons/moeda.png" alt="logo" /> <span id="quantidadeCoinsUser">0</span>
+                </div>
+            </div>
+            <div class="loja-menus">
+                <!--Parte esquerda-->
+                <div class="loja-menu-esquerdo">
+                    <div class="lme-container">
+                        <div>
+                            <img src="img/background/irmaos.png" class="loja-img-irmaos" alt="fundo" />
+                        </div>
+                        <ol class="lista-categorias is-active">
+                            <li class="listaC-item" onmouseover="audioCursor()" onclick="buscarPocoes()">
+                                <div class="listaC-row">
+                                    <a  class="categoryList-link">
+                                        Poções
+                                    </a>
+                                    <span class="categoryList-label">
+                                        <span id="quantidadePot" class="labelQuantidade">7</span>
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="listaC-item" onmouseover="audioCursor()" onclick="buscarEquipamentos()">
+                                <div class="listaC-row">
+                                    <a  class="categoryList-link">
+                                        Equipamentos
+                                    </a>
+                                    <span class="categoryList-label">
+                                        <span id="quantidadeEquips" class="labelQuantidade">1</span>
+                                    </span>
+                                </div>
+                            </li>
+ 
+                            <li class="listaC-item" onmouseover="audioCursor()" onclick="buscarObjetos()">
+                                <div class="listaC-row">
+                                    <a class="categoryList-link">
+                                        Objetos
+                                    </a>
+                                    <span class="categoryList-label">
+                                        <span id="quantidadeObj" class="labelQuantidade">2</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="lme-container mt-20">
+                        <div class="lme-header">
+                            Avaliações
+                        </div>
+                        <div class="lme-avaliacoes">
+                            <img src="img/icons/pao.png" alt="logo" />
+                            <div class="avaliacao"> 
+                                <b>José Slime</b><br />
+                                <span>Muito bom esses pão fiado do padeiro. São os melhores pães do mundo</span>
+                                <div id="estrelasComentJose" class="estrelas-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Meio-->
+                <div class="loja-menu-meio">
+                    <div class="lmc-container">
+                        <div id="titleTypeItem" class="lmc-header">
+                            Poções
+                        </div>
+                        <div id="lojaItens" class="lmc-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Parte direita-->
+                <div class="loja-menu-direito">
+                    <div id="containerFiltros" class="lmd-container">
+                        <div class="lmd-header">
+                            Filtros
+                        </div>
+                        <div class="loja-filtros-body">
+                            <div class="loja-filtros-row b-0">
+                                <span>
+                                    Nome:
+                                </span><br />
+                                <input id="filtroNome" placeholder="Nome" class="input-condado" name="filtroNome"/>
+                            </div>
+                            <div class="loja-filtros-row">
+                                <span>
+                                    Raridade:
+                                </span><br />
+                                <select id="filtroRaridade" class="input-condado">
+                                    <option selected value="0" data-prefix-class="label label--accent">Nenhum</option>
+                                    <option value="1" data-prefix-class="label label--accent">Comum</option>
+                                    <option value="2" data-prefix-class="label label--accent">Incomum</option>
+                                    <option value="3" data-prefix-class="label label--skyBlue">Raro</option>
+                                </select>
+                            </div>
+                            <div class="loja-filtros-row">
+                                <span>
+                                    Tipo:
+                                </span><br />
+                                <select id="filtroTipo" class="input-condado">
+                                    <option selected value="0" data-prefix-class="label label--accent">Todos</option>
+                                    <option value="1" data-prefix-class="label label--accent">Poção</option>
+                                    <option value="2" data-prefix-class="label label--accent">Equipamento</option>
+                                    <option value="3" data-prefix-class="label label--skyBlue">Objetos</option>
+                                </select>
+                            </div>
+                            <div class="loja-filtros-row text-right">
+                                <button class="button-condado button-filtrar" onclick="filtrar()">
+                                    Filtrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item descrição-->
+                    <div id="descricaoItem" class="lmd-container d-none">
+                        
+                    </div>
+                    <!--Inventário-->
+                    <div id="inventarioItemLoja" class="lmd-container">
+                        <div class="lmd-header">
+                            Inventário
+                        </div>
+                        <div id="inventarioUsuario" class="loja-inventario-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+    </div>
+  </body>
+</html>

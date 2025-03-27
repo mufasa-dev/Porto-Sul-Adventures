@@ -1,0 +1,55 @@
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+/*Margin*/
+.m-0{
+    margin: 0;
+}
+
+.m-5{
+    margin: 5px;
+}
+
+.m-20{
+    margin: 20px;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+/*Padding*/
+.p-10{
+    padding: 10px;
+}
+
+/*Border*/
+.b-0{
+    border: 0 !important;
+}
+
+/*Display*/
+.d-block{
+    display: block !important; 
+}
+
+.d-none{
+    display: none !important;
+}
+
+.d-flex{
+    display: flex !important;
+}

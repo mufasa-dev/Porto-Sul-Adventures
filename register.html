@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/system.js"></script>
+    <!--CSS-->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/coisasUteis.css" rel="stylesheet">
+    <link href="styles/loginRegister.css" rel="stylesheet">
+    <title>A loja</title>
+  </head>
+  <body onload="abrirLogin()">
+    <div class="fundo">
+        <audio id="audioSE" autoplay class="d-none"></audio>
+        <div w3-include-html="header.html"></div>
+        <div class="aventure-container">
+            <div class="aventure-titulo">
+                Criar Conta
+            </div>
+            <div class="aventure-menus">
+                
+                <!--Meio-->
+                <div class="aventure-menu-meio" onclick="renderNextMessage()">
+                    <!--<img src="img/background/Bigtree.png" class="aventure-background" alt="fundo" />-->
+                    <div id="mensagens" class="mensagem d-none">
+                        <div id="mensagemFace" class="mensagemFace">
+                            <img src="img/face/gimble_gamble.jpg" alt="face" />
+                        </div>
+                        <div id="mensagemCorpo" class="mensagemCorpo">
+                            <span>Deu certo</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Parte esquerda-->
+                <div class="aventure-menu-esquerdo">
+                    <div class="lme-container">
+                        <img src="img/background/irmaos.png" class="aventure-img-irmaos" alt="fundo" />
+                        <div class="aventure-formulario">
+                            <div id="avatar" class="avatarContainer" onclick="openModalSelectPerfil()">
+                                <img  src="img/face/1.png" alt="face" />
+                            </div>
+                            <span>Nome de usuário:</span><br />
+                            <input id="registerNome" placeholder="Nome" class="input-condado" name="filtroNome"/>
+                            <span>Classe:</span><br />
+                            <select id="registerClasse" class="input-condado">
+                                <option selected value="Guerreiro" data-prefix-class="label label--accent">Guerreiro</option>
+                                <option value="Arqueiro" data-prefix-class="label label--accent">Arqueiro</option>
+                                <option value="Mago" data-prefix-class="label label--accent">Mago</option>
+                                <option value="Ladino" data-prefix-class="label label--skyBlue">Ladino</option>
+                                <option value="Bardo" data-prefix-class="label label--skyBlue">Bardo</option>
+                            </select>
+                            <span>E-mail:</span><br />
+                            <input id="registerEmail" placeholder="E-mail" type="email" class="input-condado" name="filtroNome"/>
+                            <span>Senha:</span><br />
+                            <input id="registerSenha" placeholder="Senha" type="password" class="input-condado" name="filtroNome"/>
+                            <span>Confirme sua Senha:</span><br />
+                            <input id="registerSenhaConfirm" placeholder="Confirme a Senha" type="password" class="input-condado" name="filtroNome"/>
+                            <div class="login-button-row text-right">
+                                <button id="botaoRegistrar" class="button-azul" onclick="register()">
+                                    Criar Conta
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalSelectPerfil" class="modal d-none">
+            <div class="modal-content modal-half">
+                <div class="modal-header">
+                    <h3>Selecione seu Avatar</h3>
+                    <div class="modal-close" onclick="fecharModalSelectPerfil()">
+                        X
+                    </div>
+                </div>
+                <div id="modalSelectPerfilContent" class="modal-body">
+                    aaa
+                </div>
+            </div>
+        </div>
+        <div w3-include-html="footer.html"></div>
+    </div>
+  </body>
+</html>

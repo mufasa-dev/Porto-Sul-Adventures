@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--JS-->
+    <script type="text/javascript" src="js/header.js"></script>
+  </head>
+  <body onload="onLoadHeader()">
+    <!--Header-->
+    <div class="condado-topo">
+        <img src="img/logo_condado.png" alt="logo" class="logo-condado" />
+        <!--Barra usuario-->
+        <div id="userContainer" class="usuarioBar d-none">
+            <a href="perfil.html" id="userAvatar"><img  src="img/face/1.png" alt="face" /></a>
+            <div class="bars">
+                <span id="nomeUser" class="nomeUser">Scar</span>
+                <div class="barHpMp">
+                    <div id="barHP" class="barHP" style="width: 25%;"></div>
+                </div>
+                <div class="barHpMp">
+                    <div id="barMP" class="barMP" style="width: 90%;"></div>
+                </div>
+                <div class="barHpMp">
+                    <div id="barEXP" class="barEXP" style="width: 90%;"></div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="nav-userDeslogado" class="nav-condado d-flex">
+            <div class="nav-condado-item">
+                <a href="register.html">
+                    Registrar
+                </a>
+            </div>
+            <div class="nav-condado-item">
+                <a href="index.html">
+                    Entrar
+                </a>
+            </div>
+        </div>
+        <div id="nav-userLogado" class="nav-condado d-none">
+            <div class="nav-condado-item">
+                <a href="aventura.html">
+                    Aventura
+                </a>
+            </div>
+            <div class="nav-condado-item">
+                <a href="quests.html">
+                    Quests
+                </a>
+            </div>
+            <div class="nav-condado-item">
+                <a href="index.html" onclick="logout()">
+                    Sair
+                </a>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

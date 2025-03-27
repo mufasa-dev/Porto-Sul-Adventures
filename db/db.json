@@ -1,0 +1,5496 @@
+{
+    "db": {
+        "usuarios": [
+            {
+                "id": 1,
+                "nome": "Scar",
+                "classe": "Arqueiro",
+                "email": "scar@aurix.com",
+                "senha": "senha",
+                "atk": 110,
+                "def": 110,
+                "nivel": 50,
+                "exp": 123576,
+                "hpMax": 1100,
+                "mpMax": 11000,
+                "hp": 1097,
+                "mp": 10900,
+                "bravecoins": 124603,
+                "avatar": 15,
+                "itens": [
+                    {
+                        "id": 1,
+                        "qtd": 6
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 46
+                    },
+                    {
+                        "id": 103,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 300,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 602,
+                        "qtd": 2
+                    },
+                    {
+                        "id": 5,
+                        "qtd": 8
+                    },
+                    {
+                        "id": 502,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 3,
+                        "qtd": 7
+                    },
+                    {
+                        "id": 108,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 303,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 501,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 500,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 503,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 506,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 400,
+                        "qtd": 2,
+                        "equipado": false
+                    },
+                    {
+                        "id": 6,
+                        "qtd": 32
+                    },
+                    {
+                        "id": 252,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 508,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 603,
+                        "qtd": 18
+                    },
+                    {
+                        "id": 604,
+                        "qtd": 4
+                    },
+                    {
+                        "id": 403,
+                        "qtd": 1,
+                        "equipado": true
+                    },
+                    {
+                        "id": 607,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 257,
+                        "qtd": 1,
+                        "equipado": true
+                    },
+                    {
+                        "id": 113,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 608,
+                        "qtd": 3
+                    },
+                    {
+                        "id": 610,
+                        "qtd": 10
+                    },
+                    {
+                        "id": 606,
+                        "qtd": 10
+                    },
+                    {
+                        "id": 510,
+                        "qtd": 1,
+                        "equipado": true
+                    },
+                    {
+                        "id": 307,
+                        "qtd": 1,
+                        "equipado": true
+                    },
+                    {
+                        "id": 605,
+                        "qtd": 3
+                    },
+                    {
+                        "id": 618,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 7,
+                        "qtd": 5
+                    },
+                    {
+                        "id": 262,
+                        "qtd": 1,
+                        "equipado": false
+                    },
+                    {
+                        "id": 614,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 611,
+                        "qtd": 2
+                    },
+                    {
+                        "id": 121,
+                        "qtd": 1,
+                        "equipado": true
+                    }
+                ],
+                "whatchIntro": true,
+                "inimigos": [
+                    {
+                        "id": 1,
+                        "qtd": 50
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 42
+                    },
+                    {
+                        "id": 4,
+                        "qtd": 108
+                    },
+                    {
+                        "id": 3,
+                        "qtd": 63
+                    },
+                    {
+                        "id": 5,
+                        "qtd": 56
+                    },
+                    {
+                        "id": 6,
+                        "qtd": 19
+                    },
+                    {
+                        "id": 7,
+                        "qtd": 61
+                    },
+                    {
+                        "id": 8,
+                        "qtd": 30
+                    },
+                    {
+                        "id": 9,
+                        "qtd": 22
+                    },
+                    {
+                        "id": 11,
+                        "qtd": 9
+                    },
+                    {
+                        "id": 10,
+                        "qtd": 20
+                    },
+                    {
+                        "id": 17,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 13,
+                        "qtd": 3
+                    },
+                    {
+                        "id": 26,
+                        "qtd": 14
+                    },
+                    {
+                        "id": 14,
+                        "qtd": 6
+                    },
+                    {
+                        "id": 16,
+                        "qtd": 4
+                    },
+                    {
+                        "id": 15,
+                        "qtd": 3
+                    },
+                    {
+                        "id": 12,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 19,
+                        "qtd": 9
+                    },
+                    {
+                        "id": 18,
+                        "qtd": 13
+                    },
+                    {
+                        "id": 25,
+                        "qtd": 1
+                    }
+                ],
+                "quest": [
+                    {
+                        "id": 7
+                    },
+                    {
+                        "id": 5
+                    },
+                    {
+                        "id": 2
+                    },
+                    {
+                        "id": 3
+                    },
+                    {
+                        "id": 6
+                    },
+                    {
+                        "id": 10
+                    },
+                    {
+                        "id": 8
+                    },
+                    {
+                        "id": 9
+                    },
+                    {
+                        "id": 12
+                    },
+                    {
+                        "id": 13
+                    },
+                    {
+                        "id": 14
+                    },
+                    {
+                        "id": 16
+                    },
+                    {
+                        "id": 17
+                    },
+                    {
+                        "id": 15
+                    },
+                    {
+                        "id": 19
+                    },
+                    {
+                        "id": 20
+                    },
+                    {
+                        "id": 22
+                    },
+                    {
+                        "id": 23
+                    },
+                    {
+                        "id": 28
+                    },
+                    {
+                        "id": 24
+                    },
+                    {
+                        "id": 49
+                    },
+                    {
+                        "id": 1
+                    },
+                    {
+                        "id": 4
+                    },
+                    {
+                        "id": 21
+                    }
+                ],
+                "inn": 7,
+                "todos": [
+                    {
+                        "id": 2,
+                        "msg": "Terminar esse jogo",
+                        "concluido": true
+                    }
+                ],
+                "defAumentar": 3
+            },
+            {
+                "id": 2,
+                "nome": "Jos\u00e9",
+                "classe": "Slime",
+                "email": "jose_slime@aurix.com",
+                "senha": "senha",
+                "atk": 10,
+                "def": 10,
+                "nivel": 1,
+                "exp": 0,
+                "hpMax": 100,
+                "mpMax": 100,
+                "hp": 100,
+                "mp": 100,
+                "bravecoins": 100,
+                "avatar": 74,
+                "itens": [
+                    {
+                        "id": 1,
+                        "qtd": 1
+                    }
+                ],
+                "whatchIntro": false
+            },
+            {
+                "id": 3,
+                "nome": "Eric",
+                "clase": "Bardo",
+                "email": "eric@aurix.com",
+                "senha": "senha",
+                "atk": 14,
+                "def": 14,
+                "nivel": 3,
+                "exp": 30,
+                "hpMax": 140,
+                "mpMax": 140,
+                "hp": 112,
+                "mp": 140,
+                "bravecoins": 955,
+                "avatar": 12,
+                "itens": [
+                    {
+                        "id": 1,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 5,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 300,
+                        "qtd": 1,
+                        "equipado": true
+                    },
+                    {
+                        "id": 4,
+                        "qtd": 1
+                    }
+                ],
+                "whatchIntro": true,
+                "inimigos": [
+                    {
+                        "id": 1,
+                        "qtd": 16
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 1
+                    }
+                ],
+                "inn": 2,
+                "quest": [
+                    {
+                        "id": 3
+                    },
+                    {
+                        "id": 2
+                    },
+                    {
+                        "id": 5
+                    }
+                ]
+            }
+        ],
+        "pocoes": [
+            {
+                "id": 1,
+                "nome": "Po\u00e7\u00e3o",
+                "preco": 500,
+                "descricao": "Um liquido m\u00e1gico verde que ao tomar cura parte de seus ferimentos e machucados",
+                "efeito": "Cura 20% de HP",
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "pocao",
+                "imagem": "pocao",
+                "hp": 20,
+                "mp": 0,
+                "acao": "itemDeCuraPorcen"
+            },
+            {
+                "id": 2,
+                "nome": "Elixir",
+                "preco": 500,
+                "descricao": "Um liquido m\u00e1gico azul que ao tomar aumenta sua energia m\u00e1gica",
+                "efeito": "Cura 20% de MP",
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "elixir",
+                "imagem": "elixir",
+                "hp": 0,
+                "mp": 20,
+                "acao": "itemDeCuraPorcen"
+            },
+            {
+                "id": 3,
+                "nome": "Veneno",
+                "preco": 100,
+                "descricao": "Um pote misterioso com uma caveira desenhada nele",
+                "efeito": "?????",
+                "raridade": 3,
+                "avaliacao": 1,
+                "tipo": "1",
+                "icone": "veneno",
+                "imagem": "veneno",
+                "hp": 20,
+                "mp": 0,
+                "usavelEmBatalha": true,
+                "acao": "tomarVeneno"
+            },
+            {
+                "id": 4,
+                "nome": "Bomba",
+                "preco": 500,
+                "nivel": 10,
+                "descricao": "Um objeto muito perigoso que cria uma explos\u00e3o que atinge todos os inimigos",
+                "efeito": "Explode tudo",
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "bomba",
+                "imagem": "bomba",
+                "usavelEmBatalha": true,
+                "acao": "itemUsouBomba"
+            },
+            {
+                "id": 5,
+                "nome": "Mel",
+                "preco": 200,
+                "descricao": "Um doce pote de mel extraido de Vespas na floresta",
+                "efeito": "Cura 10% de MP",
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "mel",
+                "imagem": "mel",
+                "naoVendeNaLoja": true,
+                "hp": 10,
+                "mp": 0,
+                "acao": "itemDeCuraPorcen"
+            },
+            {
+                "id": 6,
+                "nome": "Cogumelos",
+                "preco": 200,
+                "descricao": "Cogumelos comestiveis encontrados nas florestas",
+                "efeito": "Cura 10% de HP",
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "cogumelo",
+                "imagem": "cogumelo",
+                "naoVendeNaLoja": true,
+                "hp": 10,
+                "mp": 0,
+                "acao": "itemDeCuraPorcen"
+            },
+            {
+                "id": 7,
+                "nome": "Batatas",
+                "preco": 600,
+                "descricao": "Deliciosas batatas muito nutritivas",
+                "efeito": "curam 15% de HP e MP",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "batata",
+                "imagem": "batata",
+                "hp": 10,
+                "mp": 0,
+                "acao": "itemDeCuraPorcen"
+            },
+            {
+                "id": 8,
+                "nome": "Po\u00e7\u00e3o de Ataque",
+                "preco": 50000,
+                "nivel": 50,
+                "descricao": "Um liquido vermelho que aumenta o seu poder de luta",
+                "efeito": "ATK + 1",
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "potATK",
+                "imagem": "potATK",
+                "hpMax": 0,
+                "mpMax": 0,
+                "atk": 1,
+                "def": 0,
+                "acao": "itemDeAtributoPorcen"
+            },
+            {
+                "id": 9,
+                "nome": "Po\u00e7\u00e3o de Defesa",
+                "preco": 50000,
+                "nivel": 50,
+                "descricao": "Um liquido laranja que aumenta a sua resistencia",
+                "efeito": "DEF + 1",
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "potDEF",
+                "imagem": "potDEF",
+                "hpMax": 0,
+                "mpMax": 0,
+                "atk": 0,
+                "def": 1,
+                "acao": "itemDeAtributoPorcen"
+            },
+            {
+                "id": 10,
+                "nome": "Po\u00e7\u00e3o da Vida",
+                "preco": 50000,
+                "nivel": 50,
+                "descricao": "Um liquido verde que aumenta a sua vida",
+                "efeito": "HpMax + 10",
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "potHP",
+                "imagem": "potHP",
+                "hpMax": 10,
+                "mpMax": 0,
+                "atk": 0,
+                "def": 0,
+                "acao": "itemDeAtributoPorcen"
+            },
+            {
+                "id": 11,
+                "nome": "Po\u00e7\u00e3o da Magia",
+                "preco": 50000,
+                "nivel": 50,
+                "descricao": "Um liquido azul que aumenta o seu poder m\u00e1gico",
+                "efeito": "MpMax + 10",
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "1",
+                "icone": "potMP",
+                "imagem": "potMP",
+                "hpMax": 0,
+                "mpMax": 10,
+                "atk": 0,
+                "def": 0,
+                "acao": "itemDeAtributoPorcen"
+            }
+        ],
+        "equipamentos": [
+            {
+                "id": 100,
+                "nome": "Espada de ferro",
+                "preco": 600,
+                "nivel": 2,
+                "descricao": "Uma espada de a\u00e7o feito por um fereiro habilidoso",
+                "efeito": "ATK + 10",
+                "atk": 10,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Guerreiro",
+                "icone": "espada",
+                "imagem": "espada"
+            },
+            {
+                "id": 101,
+                "nome": "Faca",
+                "preco": 500,
+                "nivel": 2,
+                "descricao": "Uma faca extremamente afiada usada por m\u00e3os habilidosas para cortar p\u00e3o e laranja",
+                "efeito": "ATK + 7",
+                "atk": 7,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 7,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Ladino",
+                "icone": "faca",
+                "imagem": "faca"
+            },
+            {
+                "id": 102,
+                "nome": "Cajado",
+                "preco": 500,
+                "nivel": 2,
+                "descricao": "Um peda\u00e7o de Madeira que parece ter poderes m\u00e1gicos",
+                "efeito": "ATK + 7",
+                "atk": 7,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 8,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Mago",
+                "icone": "bastao",
+                "imagem": "bastao"
+            },
+            {
+                "id": 103,
+                "nome": "Estilingue",
+                "preco": 500,
+                "nivel": 2,
+                "descricao": "Usado para acertar seus inimigos de longe",
+                "efeito": "ATK + 8",
+                "atk": 8,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 8,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Arqueiro",
+                "icone": "estilingue",
+                "imagem": "estilingue"
+            },
+            {
+                "id": 104,
+                "nome": "Ocarina",
+                "preco": 500,
+                "nivel": 2,
+                "descricao": "Um instrumento simples usado para musicas simples",
+                "efeito": "ATK + 10 \/ DEF + 5",
+                "atk": 10,
+                "def": 5,
+                "raridade": 2,
+                "avaliacao": 8,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Bardo",
+                "icone": "ocarina",
+                "imagem": "ocarina"
+            },
+            {
+                "id": 105,
+                "nome": "Espada de a\u00e7o",
+                "preco": 2200,
+                "nivel": 12,
+                "descricao": "Uma espada de a\u00e7o feito do mais duro a\u00e7o",
+                "efeito": "ATK + 20",
+                "atk": 20,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Guerreiro",
+                "icone": "espada",
+                "imagem": "espada"
+            },
+            {
+                "id": 106,
+                "nome": "Faca de A\u00e7o",
+                "preco": 2200,
+                "nivel": 12,
+                "descricao": "Uma faca muito poderosa e afiada",
+                "efeito": "ATK + 17",
+                "atk": 17,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Ladino",
+                "icone": "faca3",
+                "imagem": "faca3"
+            },
+            {
+                "id": 107,
+                "nome": "Cajado",
+                "preco": 2200,
+                "nivel": 12,
+                "descricao": "Um peda\u00e7o de madeira m\u00e1gico adornado com rubis e amestistas",
+                "efeito": "ATK + 17",
+                "atk": 17,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 8,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Mago",
+                "icone": "cajado2",
+                "imagem": "cajado2"
+            },
+            {
+                "id": 108,
+                "nome": "Besta",
+                "preco": 2200,
+                "nivel": 12,
+                "descricao": "Usado para acertar seus inimigos de longe",
+                "efeito": "ATK + 18",
+                "atk": 18,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 8,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Arqueiro",
+                "icone": "besta",
+                "imagem": "besta"
+            },
+            {
+                "id": 109,
+                "nome": "Lira",
+                "preco": 2200,
+                "nivel": 12,
+                "descricao": "Um pequeno instrumento de 15 cordas",
+                "efeito": "ATK + 15 \/ DEF + 5",
+                "atk": 15,
+                "def": 5,
+                "raridade": 2,
+                "avaliacao": 8,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Bardo",
+                "icone": "lira",
+                "imagem": "lira"
+            },
+            {
+                "id": 110,
+                "nome": "Katana",
+                "preco": 30000,
+                "nivel": 30,
+                "descricao": "Uma espada muito poderosa e resistente",
+                "efeito": "ATK + 35",
+                "atk": 35,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Guerreiro",
+                "icone": "sabre",
+                "imagem": "sabre"
+            },
+            {
+                "id": 111,
+                "nome": "Garras",
+                "preco": 30000,
+                "nivel": 30,
+                "descricao": "Uma arma poderosa e discreta",
+                "efeito": "ATK + 35",
+                "atk": 35,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Ladino",
+                "icone": "garra",
+                "imagem": "garra"
+            },
+            {
+                "id": 112,
+                "nome": "Cajado ",
+                "preco": 30000,
+                "nivel": 30,
+                "descricao": "Um cajado especial coberto de pedras m\u00e1gicas",
+                "efeito": "ATK + 33 \/ DEF + 2",
+                "atk": 33,
+                "def": 2,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Mago",
+                "icone": "cajadoDourado",
+                "imagem": "cajadoDourado"
+            },
+            {
+                "id": 113,
+                "nome": "Arco e Flecha",
+                "preco": 30000,
+                "nivel": 30,
+                "descricao": "Usado para acertar seus inimigos de longe",
+                "efeito": "ATK + 30 \/ DEF + 5",
+                "atk": 30,
+                "def": 5,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Arqueiro",
+                "icone": "arco",
+                "imagem": "arco"
+            },
+            {
+                "id": 114,
+                "nome": "Flauta",
+                "preco": 30000,
+                "nivel": 30,
+                "descricao": "Uma flauta tranversal com um potente som",
+                "efeito": "ATK + 25 \/ DEF + 10",
+                "atk": 25,
+                "def": 10,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Bardo",
+                "icone": "flauta",
+                "imagem": "flauta"
+            },
+            {
+                "id": 115,
+                "nome": "Espada do Her\u00f3i",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Uma espada lend\u00e1ria usada somente pelos grandes her\u00f3is",
+                "efeito": "ATK + 100",
+                "atk": 100,
+                "def": 0,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Guerreiro",
+                "icone": "espadaSuprema",
+                "imagem": "espadaSuprema"
+            },
+            {
+                "id": 116,
+                "nome": "Machado Supremo",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Uma arma lend\u00e1ria usada pelo maior her\u00f3i de todos os tempos.",
+                "efeito": "ATK + 120 \/ DEF + 20",
+                "naoVendeNaLoja": true,
+                "atk": 90,
+                "def": 20,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Guerreiro",
+                "icone": "machadoDeLuz",
+                "imagem": "machadoDeLuz"
+            },
+            {
+                "id": 117,
+                "nome": "Garras Supremas",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Uma arma m\u00e1gica usada por um assassino lend\u00e1rio",
+                "efeito": "ATK + 80 \/ DEF + 20",
+                "naoVendeNaLoja": true,
+                "atk": 80,
+                "def": 20,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Ladino",
+                "icone": "garraMagica",
+                "imagem": "garraMagica"
+            },
+            {
+                "id": 118,
+                "nome": "Adaga Suprema",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Uma lamina lend\u00e1ria passada de gera\u00e7\u00e3o em gera\u00e7\u00e3o para os melhores ninjas",
+                "efeito": "ATK + 120 \/ DEF + 10",
+                "atk": 90,
+                "def": 10,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Ladino",
+                "icone": "facaSuprema",
+                "imagem": "facaSuprema"
+            },
+            {
+                "id": 119,
+                "nome": "Cajado Supremo",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Um cajado m\u00e1gico que dizem ter pertencido a Merlin",
+                "efeito": "ATK + 95 \/ DEF + 5",
+                "atk": 95,
+                "def": 5,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Mago",
+                "icone": "cajadoSupremo",
+                "imagem": "cajadoSupremo"
+            },
+            {
+                "id": 120,
+                "nome": "Cajado das Sombras",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Um cajado m\u00e1gico que dizem ter pertencido a Morgana",
+                "efeito": "ATK + 120 \/ DEF + 12",
+                "naoVendeNaLoja": true,
+                "atk": 90,
+                "def": 10,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Mago",
+                "icone": "cajadoSombra",
+                "imagem": "cajadoSombra"
+            },
+            {
+                "id": 121,
+                "nome": "Arco Supremo",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Uma arma especial usada apenas pelos lideres da Ordem dos Arqueiros",
+                "efeito": "ATK + 90 \/ DEF + 10",
+                "atk": 90,
+                "def": 10,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Arqueiro",
+                "icone": "arcoSupremo",
+                "imagem": "arcoSupremo"
+            },
+            {
+                "id": 122,
+                "nome": "Besta Suprema",
+                "preco": 300000,
+                "nivel": 50,
+                "descricao": "Uma arma especial criada pelos melhores artes\u00f5es do mundo",
+                "efeito": "ATK + 130 \/ DEF + 5",
+                "naoVendeNaLoja": true,
+                "atk": 100,
+                "def": 5,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Arqueiro",
+                "icone": "bestaSuprema",
+                "imagem": "bestaSuprema"
+            },
+            {
+                "id": 123,
+                "nome": "Ala\u00fade",
+                "preco": 300000,
+                "nivel": 25,
+                "descricao": "O instrumento mais utilizado por trovadores ao longo da hist\u00f3ria. Perfeito para todo tipo de m\u00fasica.",
+                "efeito": "ATK + 50 \/ DEF + 50",
+                "atk": 50,
+                "def": 50,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Bardo",
+                "icone": "alaude",
+                "imagem": "alaude"
+            },
+            {
+                "id": 124,
+                "nome": "Ala\u00fade negro",
+                "preco": 300000,
+                "nivel": 25,
+                "descricao": "Igual a um ala\u00fade normal. S\u00f3 que prto. Perfeito para musicas dark",
+                "efeito": "ATK + 70 \/ DEF + 70",
+                "naoVendeNaLoja": true,
+                "atk": 45,
+                "def": 40,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "arma",
+                "classe": "Bardo",
+                "icone": "alaudeSombra",
+                "imagem": "alaudeSombra"
+            },
+            {
+                "id": 250,
+                "nome": "Escudo",
+                "preco": 1500,
+                "nivel": 15,
+                "descricao": "Um escudo de ferro que te protege dos inimigos",
+                "efeito": "DEF + 15",
+                "atk": 0,
+                "def": 15,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Guerreiro",
+                "icone": "escudo",
+                "imagem": "escudo"
+            },
+            {
+                "id": 251,
+                "nome": "Ametista",
+                "preco": 1500,
+                "nivel": 15,
+                "descricao": "Uma pedra m\u00e1gica para ser combinada com seu cajado e te dar novos poderes",
+                "efeito": "ATK + 15",
+                "atk": 15,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Mago",
+                "icone": "ametista",
+                "imagem": "ametista"
+            },
+            {
+                "id": 252,
+                "nome": "Faca simples",
+                "preco": 1500,
+                "nivel": 15,
+                "descricao": "Uma arma adicional para caso voc\u00ea fique sem muni\u00e7\u00e3o",
+                "efeito": "ATK + 15",
+                "atk": 15,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Arqueiro",
+                "icone": "faca",
+                "imagem": "faca"
+            },
+            {
+                "id": 253,
+                "nome": "Shuriken",
+                "preco": 1500,
+                "nivel": 15,
+                "descricao": "Uma arma adicional para atingir inimigos a distancia",
+                "efeito": "ATK + 15",
+                "atk": 15,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Ladino",
+                "icone": "shuriken",
+                "imagem": "shuriken"
+            },
+            {
+                "id": 254,
+                "nome": "Sinos",
+                "preco": 1500,
+                "nivel": 15,
+                "descricao": "Um instrumento adicional para voc\u00ea usar como acompanhamento de suas contigas",
+                "efeito": "ATK + 8 \/ DEF + 5",
+                "atk": 8,
+                "def": 5,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Bardo",
+                "icone": "sino",
+                "imagem": "sino"
+            },
+            {
+                "id": 255,
+                "nome": "Escudo Real",
+                "preco": 20000,
+                "nivel": 35,
+                "descricao": "Um escudo azul que te protege dos inimigos",
+                "efeito": "DEF + 50",
+                "atk": 0,
+                "def": 50,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Guerreiro",
+                "icone": "escudoReal",
+                "imagem": "escudoReal"
+            },
+            {
+                "id": 256,
+                "nome": "Esmeralda",
+                "preco": 20000,
+                "nivel": 30,
+                "descricao": "Uma pedra m\u00e1gica para ser combinada com seu cajado e te dar novos poderes",
+                "efeito": "ATK + 35 \/ DEF + 15",
+                "atk": 35,
+                "def": 15,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Mago",
+                "icone": "esmeralda",
+                "imagem": "esmeralda"
+            },
+            {
+                "id": 257,
+                "nome": "Faca de arremesso",
+                "preco": 20000,
+                "nivel": 30,
+                "descricao": "Uma arma adicional para caso voc\u00ea fique sem muni\u00e7\u00e3o",
+                "efeito": "ATK + 30 \/ DEF + 10",
+                "atk": 35,
+                "def": 10,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Arqueiro",
+                "icone": "faca3",
+                "imagem": "faca3"
+            },
+            {
+                "id": 258,
+                "nome": "Shurikens de a\u00e7o",
+                "preco": 20000,
+                "nivel": 35,
+                "descricao": "Uma arma adicional para atingir inimigos a distancia",
+                "efeito": "ATK + 45",
+                "atk": 35,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Ladino",
+                "icone": "shurikenAco",
+                "imagem": "shurikenAco"
+            },
+            {
+                "id": 259,
+                "nome": "Caixinha de m\u00fasica",
+                "preco": 20000,
+                "nivel": 35,
+                "descricao": "Um instrumento adicional para voc\u00ea usar como acompanhamento de suas contigas",
+                "efeito": "ATK + 20 \/ DEF + 20",
+                "atk": 20,
+                "def": 20,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Bardo",
+                "icone": "caixaDeMusica",
+                "imagem": "caixaDeMusica"
+            },
+            {
+                "id": 260,
+                "nome": "Escudo de Fogo",
+                "preco": 80000,
+                "nivel": 45,
+                "descricao": "Um escudo m\u00e1gico capaz de repelir qualquer m\u00e1gia",
+                "efeito": "DEF + 100",
+                "atk": 0,
+                "def": 100,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Guerreiro",
+                "icone": "escudoFogo",
+                "imagem": "escudoFogo"
+            },
+            {
+                "id": 261,
+                "nome": "Diamante",
+                "preco": 80000,
+                "nivel": 45,
+                "descricao": "Uma pedra m\u00e1gica para ser combinada com seu cajado e te dar novos poderes",
+                "efeito": "ATK + 70 \/ DEF + 30",
+                "atk": 70,
+                "def": 30,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Mago",
+                "icone": "diamante",
+                "imagem": "diamante"
+            },
+            {
+                "id": 262,
+                "nome": "Faca de Ca\u00e7a lend\u00e1ria",
+                "preco": 80000,
+                "nivel": 45,
+                "descricao": "Uma faca lend\u00e1ria utilizada por um valente ca\u00e7ador",
+                "efeito": "ATK + 80 \/ DEF + 30",
+                "atk": 80,
+                "def": 30,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Arqueiro",
+                "icone": "facaAzul",
+                "imagem": "facaAzul"
+            },
+            {
+                "id": 263,
+                "nome": "Shurikens de Fogo",
+                "preco": 80000,
+                "nivel": 45,
+                "descricao": "Armas lend\u00e1rias forjadas pelo melhor dos ferreiros",
+                "efeito": "ATK + 100",
+                "atk": 100,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Ladino",
+                "icone": "shurikenFogo",
+                "imagem": "shurikenFogo"
+            },
+            {
+                "id": 264,
+                "nome": "Tambores",
+                "preco": 80000,
+                "nivel": 45,
+                "descricao": "Um instrumento para ultilizar de acompanhamento",
+                "efeito": "ATK + 50 \/ DEF + 50",
+                "atk": 50,
+                "def": 50,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "escudo",
+                "classe": "Bardo",
+                "icone": "tambor",
+                "imagem": "tambor"
+            },
+            {
+                "id": 300,
+                "nome": "Roupas simples",
+                "preco": 50,
+                "descricao": "Roupas simples feitas de linho",
+                "efeito": "DEF + 2",
+                "atk": 0,
+                "def": 2,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "icone": "roupaComum",
+                "imagem": "roupaComum"
+            },
+            {
+                "id": 301,
+                "nome": "Roupas Chamativas",
+                "preco": 1000,
+                "nivel": 10,
+                "descricao": "Roupas elegantese coloridas",
+                "efeito": "DEF + 20",
+                "atk": 0,
+                "def": 20,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Bardo",
+                "icone": "roupasChamativas",
+                "imagem": "roupasChamativas"
+            },
+            {
+                "id": 302,
+                "nome": "Armadura",
+                "preco": 1000,
+                "nivel": 10,
+                "descricao": "Uma armadura de Ferro",
+                "efeito": "DEF + 20 \/ ATK - 1",
+                "atk": -1,
+                "def": 20,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Guerreiro",
+                "icone": "armadura",
+                "imagem": "armadura"
+            },
+            {
+                "id": 303,
+                "nome": "Capa",
+                "preco": 1000,
+                "nivel": 8,
+                "descricao": "Uma capa elegante simples",
+                "efeito": "DEF + 15 \/ ATK + 5",
+                "atk": 5,
+                "def": 15,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "icone": "capaReal",
+                "imagem": "capaReal"
+            },
+            {
+                "id": 304,
+                "nome": "Capa discreta",
+                "preco": 1000,
+                "nivel": 10,
+                "descricao": "Uma capa discreta para a dura vida de ladino",
+                "efeito": "DEF + 10 \/ ATK + 2",
+                "atk": 2,
+                "def": 10,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Ladino",
+                "icone": "lenco",
+                "imagem": "lenco"
+            },
+            {
+                "id": 305,
+                "nome": "Capa",
+                "preco": 1000,
+                "nivel": 10,
+                "descricao": "Uma capa usada por magos",
+                "efeito": "DEF + 5 \/ ATK + 15",
+                "atk": 15,
+                "def": 5,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Mago",
+                "icone": "capaNoel",
+                "imagem": "capaNoel"
+            },
+            {
+                "id": 306,
+                "nome": "Armadura de A\u00e7o",
+                "preco": 50000,
+                "nivel": 30,
+                "descricao": "Uma armadura pesada usada pelos soldados do rei",
+                "efeito": "DEF + 50 \/ ATK - 5",
+                "atk": -5,
+                "def": 50,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Guerreiro",
+                "icone": "armaduraReal",
+                "imagem": "armaduraReal"
+            },
+            {
+                "id": 307,
+                "nome": "Capa camuflada",
+                "preco": 50000,
+                "nivel": 30,
+                "descricao": "Uma capa camuflada usada pelos melhores Rangers",
+                "efeito": "DEF + 40 \/ ATK + 10",
+                "atk": 10,
+                "def": 40,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Arqueiro",
+                "icone": "mantoRanger",
+                "imagem": "mantoRanger"
+            },
+            {
+                "id": 308,
+                "nome": "Capa da invisibilidade",
+                "preco": 50000,
+                "nivel": 30,
+                "descricao": "Uma capa que te deixa invisivel",
+                "efeito": "DEF + 45 \/ ATK + 5",
+                "atk": 5,
+                "def": 45,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Ladino",
+                "icone": "capaInvisibilidade",
+                "imagem": "capaInvisibilidade"
+            },
+            {
+                "id": 309,
+                "nome": "Capa m\u00e1gica",
+                "preco": 50000,
+                "nivel": 30,
+                "descricao": "Uma capa m\u00e1gica usada para aumentar seu poder arcano",
+                "efeito": "DEF + 10 \/ ATK + 40",
+                "atk": 40,
+                "def": 10,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Mago",
+                "icone": "capaMago",
+                "imagem": "capaMago"
+            },
+            {
+                "id": 310,
+                "nome": "Roupas elegantes",
+                "preco": 50000,
+                "nivel": 30,
+                "descricao": "Roupas elegantese coloridas dignas de um rei",
+                "efeito": "DEF + 25 \/ ATK + 25",
+                "atk": 25,
+                "def": 25,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "roupa",
+                "classe": "Bardo",
+                "icone": "roupasElegantes",
+                "imagem": "roupasElegantes"
+            },
+            {
+                "id": 500,
+                "nome": "Anel",
+                "preco": 200,
+                "nivel": 5,
+                "descricao": "Um anel m\u00e1gico que aumenta um pouco o ataque",
+                "efeito": "ATK + 2",
+                "atk": 2,
+                "def": 0,
+                "raridade": 1,
+                "avaliacao": 5,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "anel",
+                "imagem": "anel"
+            },
+            {
+                "id": 501,
+                "nome": "La\u00e7o",
+                "preco": 200,
+                "nivel": 5,
+                "descricao": "Um la\u00e7o colorido que ajuda a distrair o inimigo",
+                "efeito": "DEF + 2",
+                "atk": 0,
+                "def": 2,
+                "raridade": 1,
+                "avaliacao": 5,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "laco",
+                "imagem": "laco"
+            },
+            {
+                "id": 502,
+                "nome": "Trevo",
+                "preco": 200,
+                "nivel": 2,
+                "descricao": "Um trevo de quatro folhas que aumenta sua sorte",
+                "efeito": "DEF + 2 \/ ATK + 1",
+                "naoVendeNaLoja": true,
+                "atk": 1,
+                "def": 1,
+                "raridade": 1,
+                "avaliacao": 5,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "trevo",
+                "imagem": "trevo"
+            },
+            {
+                "id": 503,
+                "nome": "Mascara de carnaval",
+                "preco": 600,
+                "nivel": 10,
+                "descricao": "Ajuda a esconder sua identidade",
+                "efeito": "DEF + 5",
+                "atk": 0,
+                "def": 5,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "mascara",
+                "imagem": "mascara"
+            },
+            {
+                "id": 504,
+                "nome": "Mascara da morte",
+                "preco": 600,
+                "nivel": 10,
+                "descricao": "Ajuda a assustar seus inimigos",
+                "efeito": "ATK + 5",
+                "naoVendeNaLoja": true,
+                "atk": 5,
+                "def": 0,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "morte",
+                "imagem": "morte"
+            },
+            {
+                "id": 505,
+                "nome": "Botas velozes",
+                "preco": 600,
+                "nivel": 10,
+                "descricao": "Aumenta sua velocidade",
+                "efeito": "ATK + 2 \/ DEF + 3",
+                "atk": 2,
+                "def": 3,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "bota",
+                "imagem": "bota"
+            },
+            {
+                "id": 506,
+                "nome": "Luvas de couro",
+                "preco": 600,
+                "nivel": 10,
+                "descricao": "Protege suas m\u00e3os enquanto estiver socando os inimigos",
+                "efeito": "ATK + 3 \/ DEF + 2",
+                "atk": 2,
+                "def": 3,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "luva",
+                "imagem": "luva"
+            },
+            {
+                "id": 507,
+                "nome": "Botas de a\u00e7o",
+                "preco": 2000,
+                "nivel": 20,
+                "descricao": "Botas muito resistentes para proteger seus p\u00e9s",
+                "efeito": "ATK + 10 \/ DEF + 15",
+                "atk": 10,
+                "def": 15,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "botaMetal",
+                "imagem": "botaMetal"
+            },
+            {
+                "id": 508,
+                "nome": "Luvas de a\u00e7o",
+                "preco": 2000,
+                "nivel": 20,
+                "descricao": "Protege suas m\u00e3os enquanto estiver socando os inimigos",
+                "efeito": "ATK + 15 \/ DEF + 10",
+                "atk": 15,
+                "def": 10,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "manopla",
+                "imagem": "manopla"
+            },
+            {
+                "id": 509,
+                "nome": "Botas Supremas",
+                "preco": 70000,
+                "nivel": 35,
+                "descricao": "As botas de um Her\u00f3is",
+                "efeito": "ATK + 30 \/ DEF + 40",
+                "atk": 30,
+                "def": 40,
+                "raridade": 3,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "botaSuprema",
+                "imagem": "botaSuprema"
+            },
+            {
+                "id": 510,
+                "nome": "Luvas Supremas",
+                "preco": 70000,
+                "nivel": 35,
+                "descricao": "As luvas de um Her\u00f3is",
+                "efeito": "ATK + 40 \/ DEF + 30",
+                "atk": 40,
+                "def": 30,
+                "raridade": 2,
+                "avaliacao": 10,
+                "tipo": "2",
+                "subtipo": "acessorio",
+                "icone": "luvasSupremas",
+                "imagem": "luvasSupremas"
+            },
+            {
+                "id": 400,
+                "nome": "Chap\u00e9u",
+                "preco": 3000,
+                "nivel": 17,
+                "descricao": "Um chap\u00e9u bonito para proteger sua cabe\u00e7a do sol",
+                "efeito": "DEF + 5",
+                "naoVendeNaLoja": true,
+                "atk": 0,
+                "def": 5,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "chapeu",
+                "icone": "chapeuSimples",
+                "imagem": "chapeuSimples"
+            },
+            {
+                "id": 401,
+                "nome": "Elmo real",
+                "preco": 3000,
+                "nivel": 25,
+                "descricao": "Um capacete extremaente resistente usado pelos soldados reais",
+                "efeito": "ATK + 10 \/ DEF + 3",
+                "atk": 10,
+                "def": 3,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "chapeu",
+                "classe": "Guerreiro",
+                "icone": "elmo",
+                "imagem": "elmo"
+            },
+            {
+                "id": 402,
+                "nome": "Chap\u00e9u de Bruxa",
+                "preco": 3000,
+                "nivel": 25,
+                "descricao": "Um chap\u00e9u pontudo usado por bruxas",
+                "efeito": "ATK + 10 \/ DEF + 3",
+                "atk": 10,
+                "def": 3,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "chapeu",
+                "classe": "Mago",
+                "icone": "chapeuBruxo",
+                "imagem": "chapeuBruxo"
+            },
+            {
+                "id": 403,
+                "nome": "Chap\u00e9u de ca\u00e7ador",
+                "preco": 3000,
+                "nivel": 25,
+                "descricao": "Um chap\u00e9u de couro usado por ca\u00e7adores",
+                "efeito": "ATK + 3 \/ DEF + 10",
+                "atk": 3,
+                "def": 10,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "chapeu",
+                "classe": "Arqueiro",
+                "icone": "chapeuCacador",
+                "imagem": "chapeuCacador"
+            },
+            {
+                "id": 404,
+                "nome": "Chap\u00e9u elegante",
+                "preco": 3000,
+                "nivel": 25,
+                "descricao": "Um chap\u00e9u elegante para combinar com roupas elegantes",
+                "efeito": "ATK + 7 \/ DEF + 7",
+                "atk": 7,
+                "def": 7,
+                "raridade": 2,
+                "avaliacao": 9,
+                "tipo": "2",
+                "subtipo": "chapeu",
+                "classe": "Bardo",
+                "icone": "chapeuBardo",
+                "imagem": "chapeuBardo"
+            }
+        ],
+        "objetos": [
+            {
+                "id": 600,
+                "nome": "P\u00e3o Fiado",
+                "preco": 0,
+                "descricao": "Um p\u00e3o super delicioso feito por um lend\u00e1rio padeiro (Pode pagar no dia de S\u00e3o Nunca)",
+                "efeito": "Mata a fome",
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "3",
+                "icone": "pao",
+                "imagem": "pao"
+            },
+            {
+                "id": 601,
+                "nome": "Laranja",
+                "preco": 5,
+                "descricao": "Uma laranja encontrada em algum lugar qualquer",
+                "efeito": "Mata a fome",
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "3",
+                "icone": "laranja",
+                "imagem": "laranja"
+            },
+            {
+                "id": 602,
+                "nome": "Ovo",
+                "preco": 5,
+                "descricao": "Uma ovo simples de galinha",
+                "efeito": "Mata a fome",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "ovo",
+                "imagem": "ovo"
+            },
+            {
+                "id": 603,
+                "nome": "Peixe",
+                "preco": 50,
+                "descricao": "Um peixe normal encontrado na Praia",
+                "efeito": "Nada",
+                "naoVendeNaLoja": true,
+                "raridade": 1,
+                "avaliacao": 10,
+                "tipo": "3",
+                "icone": "peixe",
+                "imagem": "peixe"
+            },
+            {
+                "id": 604,
+                "nome": "Concha",
+                "preco": 1000,
+                "descricao": "Uma belissima concha encontrada na praia",
+                "efeito": "Usado para enfeitar",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "concha",
+                "imagem": "concha"
+            },
+            {
+                "id": 605,
+                "nome": "Pena",
+                "preco": 100,
+                "descricao": "Um pena de algum passaro",
+                "efeito": "Usado para escrever",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "pena",
+                "imagem": "pena"
+            },
+            {
+                "id": 606,
+                "nome": "Linha",
+                "preco": 100,
+                "descricao": "Uma linha colorida",
+                "efeito": "Usado para costurar",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "linha",
+                "imagem": "linha"
+            },
+            {
+                "id": 607,
+                "nome": "Clava",
+                "preco": 100,
+                "descricao": "Um peda\u00e7o de madeira",
+                "efeito": "Arma para Ogros",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "clava",
+                "imagem": "clava"
+            },
+            {
+                "id": 608,
+                "nome": "Pedra Azul",
+                "preco": 100,
+                "descricao": "Uma pedra brilhante",
+                "efeito": "Para fins m\u00e1gicos",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "pedraAzul",
+                "imagem": "pedraAzul"
+            },
+            {
+                "id": 609,
+                "nome": "Pedra Verde",
+                "preco": 100,
+                "descricao": "Uma pedra brilhante",
+                "efeito": "Para fins m\u00e1gicos",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "pedraVerde",
+                "imagem": "pedraVerde"
+            },
+            {
+                "id": 610,
+                "nome": "Pedra Vermelha",
+                "preco": 100,
+                "descricao": "Uma pedra brilhante",
+                "efeito": "Para fins m\u00e1gicos",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "pedraVermelha",
+                "imagem": "pedraVermelha"
+            },
+            {
+                "id": 611,
+                "nome": "Espelho",
+                "preco": 100,
+                "descricao": "Um simples espelho",
+                "efeito": "Para refletir",
+                "raridade": 1,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "tipo": "3",
+                "icone": "espelho",
+                "imagem": "espelho"
+            },
+            {
+                "id": 612,
+                "nome": "Tronco",
+                "preco": 100,
+                "descricao": "Parte do Tronco de \u00e1rvore da grande anci\u00e3 guardi\u00e3 da floresta",
+                "efeito": "Usado como lenha",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "unico": true,
+                "tipo": "3",
+                "icone": "toco",
+                "imagem": "toco"
+            },
+            {
+                "id": 613,
+                "nome": "Chifres",
+                "preco": 100,
+                "descricao": "Os chifres da grande serpente que habita nos mares",
+                "efeito": "Sem nenhum uso aparente",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "unico": true,
+                "tipo": "3",
+                "icone": "chifre2",
+                "imagem": "chifre2"
+            },
+            {
+                "id": 614,
+                "nome": "Pedra",
+                "preco": 100,
+                "descricao": "Parte do grande Guardi\u00e3o das Cavernas",
+                "efeito": "Peso para papel",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "unico": true,
+                "tipo": "3",
+                "icone": "pedra",
+                "imagem": "pedra"
+            },
+            {
+                "id": 615,
+                "nome": "Ovo de Drag\u00e3o",
+                "preco": 100,
+                "descricao": "O ovo do grande Drag\u00e3o que habita as montanhas",
+                "efeito": "Daria um bom Omelete",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "unico": true,
+                "tipo": "3",
+                "icone": "ovoDragao",
+                "imagem": "ovoDragao"
+            },
+            {
+                "id": 616,
+                "nome": "Dentes de Vampiro",
+                "preco": 100,
+                "descricao": "Dentes de um vampiro poderoso que no passado assombrava uma casa",
+                "efeito": "Para fantasias",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "unico": true,
+                "tipo": "3",
+                "icone": "dentesVampiro",
+                "imagem": "dentesVampiro"
+            },
+            {
+                "id": 617,
+                "nome": "Cora\u00e7\u00e3o do rei das sombras",
+                "preco": 100,
+                "descricao": "O cora\u00e7\u00e3o do mais temivel inimigo de todos",
+                "efeito": "Cuidado, \u00e9 sensivel",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "unico": true,
+                "tipo": "3",
+                "icone": "coracao",
+                "imagem": "coracao"
+            },
+            {
+                "id": 618,
+                "nome": "Cebola",
+                "preco": 100,
+                "descricao": "Usadas como arma pela tripula\u00e7\u00e3o do pirata Hammerhead",
+                "efeito": "Uma arma mortal",
+                "raridade": 3,
+                "avaliacao": 10,
+                "naoVendeNaLoja": true,
+                "unico": true,
+                "tipo": "3",
+                "icone": "cebola",
+                "imagem": "cebola"
+            }
+        ],
+        "tropas": [
+            {
+                "id": 1,
+                "nome": "Vespa",
+                "nivel": 1,
+                "inimigos": [
+                    1
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 2,
+                "nome": "Vespas",
+                "nivel": 3,
+                "inimigos": [
+                    1,
+                    1
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 3,
+                "nome": "Vespas",
+                "nivel": 5,
+                "inimigos": [
+                    1,
+                    1,
+                    1
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 4,
+                "nome": "Inseto",
+                "nivel": 3,
+                "inimigos": [
+                    2
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 5,
+                "nome": "Inseto e Vespa",
+                "nivel": 6,
+                "inimigos": [
+                    1,
+                    2
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 6,
+                "nome": "Inseto2",
+                "nivel": 4,
+                "inimigos": [
+                    2,
+                    2
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 7,
+                "nome": "Inseto e Vespas",
+                "nivel": 8,
+                "inimigos": [
+                    1,
+                    2,
+                    1
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 7,
+                "nome": "Insetos",
+                "nivel": 8,
+                "inimigos": [
+                    2,
+                    2,
+                    2
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 8,
+                "nome": "Cogumelo",
+                "nivel": 8,
+                "inimigos": [
+                    3
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 9,
+                "nome": "Cogumelo e Vespas",
+                "nivel": 9,
+                "inimigos": [
+                    1,
+                    3,
+                    1
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 10,
+                "nome": "Cogumelos",
+                "nivel": 10,
+                "inimigos": [
+                    3,
+                    3
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 11,
+                "nome": "Cogumelo e insetos",
+                "nivel": 10,
+                "inimigos": [
+                    2,
+                    3,
+                    2
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 12,
+                "nome": "Cogumelos",
+                "nivel": 12,
+                "inimigos": [
+                    3,
+                    3,
+                    3
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 13,
+                "nome": "Lagosta",
+                "nivel": 10,
+                "inimigos": [
+                    4
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 14,
+                "nome": "Lagostas",
+                "nivel": 11,
+                "inimigos": [
+                    4,
+                    4
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 15,
+                "nome": "Lagostas",
+                "nivel": 14,
+                "inimigos": [
+                    4,
+                    4,
+                    4
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 16,
+                "nome": "Peixe",
+                "nivel": 13,
+                "inimigos": [
+                    5
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 17,
+                "nome": "Lagostas e Peixe",
+                "nivel": 15,
+                "inimigos": [
+                    4,
+                    5,
+                    4
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 18,
+                "nome": "Lagosta e Peixe",
+                "nivel": 14,
+                "inimigos": [
+                    4,
+                    5
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 19,
+                "nome": "Peixes",
+                "nivel": 16,
+                "inimigos": [
+                    5,
+                    5
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 20,
+                "nome": "Peixes",
+                "nivel": 17,
+                "inimigos": [
+                    5,
+                    5,
+                    5
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 21,
+                "nome": "Polvo",
+                "nivel": 18,
+                "inimigos": [
+                    6
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 22,
+                "nome": "Polvo e Lagostas",
+                "nivel": 19,
+                "inimigos": [
+                    4,
+                    6,
+                    4
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 23,
+                "nome": "Polvos",
+                "nivel": 20,
+                "inimigos": [
+                    6,
+                    6
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 24,
+                "nome": "Polvos",
+                "nivel": 22,
+                "inimigos": [
+                    6,
+                    6,
+                    6
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 25,
+                "nome": "Cogumelos",
+                "nivel": 20,
+                "inimigos": [
+                    3,
+                    3,
+                    3
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 26,
+                "nome": "Morcego e cogumelos",
+                "nivel": 21,
+                "inimigos": [
+                    3,
+                    7,
+                    3
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 27,
+                "nome": "Morcego",
+                "nivel": 20,
+                "inimigos": [
+                    7
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 28,
+                "nome": "Morcegos",
+                "nivel": 21,
+                "inimigos": [
+                    7,
+                    7
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 29,
+                "nome": "Lagostas",
+                "nivel": 24,
+                "inimigos": [
+                    7,
+                    7,
+                    7
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 30,
+                "nome": "Goblin",
+                "nivel": 23,
+                "inimigos": [
+                    8
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 31,
+                "nome": "Goblin e Morcegos",
+                "nivel": 25,
+                "inimigos": [
+                    7,
+                    8,
+                    7
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 32,
+                "nome": "Goblin e Morcego",
+                "nivel": 24,
+                "inimigos": [
+                    7,
+                    8
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 33,
+                "nome": "Goblins",
+                "nivel": 26,
+                "inimigos": [
+                    8,
+                    8
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 34,
+                "nome": "Goblins",
+                "nivel": 27,
+                "inimigos": [
+                    8,
+                    8,
+                    8
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 35,
+                "nome": "Ogro",
+                "nivel": 28,
+                "inimigos": [
+                    9
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 36,
+                "nome": "Ogro e Morcegos",
+                "nivel": 29,
+                "inimigos": [
+                    7,
+                    9,
+                    7
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 37,
+                "nome": "Ogros",
+                "nivel": 30,
+                "inimigos": [
+                    9,
+                    9
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 38,
+                "nome": "Ogros",
+                "nivel": 32,
+                "inimigos": [
+                    9,
+                    9,
+                    9
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 39,
+                "nome": "Rei Goblin",
+                "nivel": 35,
+                "inimigos": [
+                    17
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 40,
+                "nome": "Rei Goblin",
+                "nivel": 37,
+                "inimigos": [
+                    8,
+                    17,
+                    8
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 41,
+                "nome": "Morcegos",
+                "nivel": 30,
+                "inimigos": [
+                    7,
+                    7,
+                    7
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 42,
+                "nome": "Morcegos e boneca",
+                "nivel": 31,
+                "inimigos": [
+                    7,
+                    7,
+                    7
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 43,
+                "nome": "Boneca",
+                "nivel": 30,
+                "inimigos": [
+                    10
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 44,
+                "nome": "Bonecas",
+                "nivel": 31,
+                "inimigos": [
+                    10,
+                    10
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 45,
+                "nome": "Bonecas",
+                "nivel": 32,
+                "inimigos": [
+                    10,
+                    10,
+                    10
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 46,
+                "nome": "Zumbi",
+                "nivel": 33,
+                "inimigos": [
+                    11
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 47,
+                "nome": "Zumbi e Bonecas",
+                "nivel": 34,
+                "inimigos": [
+                    10,
+                    11,
+                    10
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 48,
+                "nome": "Zumbi e Boneca",
+                "nivel": 35,
+                "inimigos": [
+                    11,
+                    10
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 49,
+                "nome": "Zumbi e Morcegos",
+                "nivel": 36,
+                "inimigos": [
+                    7,
+                    11,
+                    7
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 50,
+                "nome": "Zumbis",
+                "nivel": 37,
+                "inimigos": [
+                    11,
+                    11
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 51,
+                "nome": "Zumbis",
+                "nivel": 38,
+                "inimigos": [
+                    11,
+                    11,
+                    11
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 52,
+                "nome": "Fantasma",
+                "nivel": 38,
+                "inimigos": [
+                    12
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 53,
+                "nome": "Fantasma e Bonecas",
+                "nivel": 39,
+                "inimigos": [
+                    10,
+                    12,
+                    10
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 54,
+                "nome": "Fantasma e Morcegos",
+                "nivel": 38,
+                "inimigos": [
+                    7,
+                    12,
+                    7
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 55,
+                "nome": "Fantasmas",
+                "nivel": 40,
+                "inimigos": [
+                    12,
+                    12
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 56,
+                "nome": "Fantasmas",
+                "nivel": 42,
+                "inimigos": [
+                    12,
+                    12,
+                    12
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 57,
+                "nome": "Zumbi e Fantasmas",
+                "nivel": 43,
+                "inimigos": [
+                    12,
+                    11,
+                    12
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 58,
+                "nome": "Vespas e Galinha",
+                "nivel": 40,
+                "inimigos": [
+                    1,
+                    13,
+                    1
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 59,
+                "nome": "Galinha",
+                "nivel": 40,
+                "inimigos": [
+                    13
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 60,
+                "nome": "Galinhas",
+                "nivel": 41,
+                "inimigos": [
+                    13,
+                    13
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 61,
+                "nome": "Galinhas",
+                "nivel": 42,
+                "inimigos": [
+                    13,
+                    13,
+                    13
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 62,
+                "nome": "Harpia",
+                "nivel": 43,
+                "inimigos": [
+                    14
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 63,
+                "nome": "Harpia e Galinhas",
+                "nivel": 44,
+                "inimigos": [
+                    13,
+                    14,
+                    13
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 64,
+                "nome": "Harpia e Galinha",
+                "nivel": 44,
+                "inimigos": [
+                    14,
+                    13
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 65,
+                "nome": "Harpia e Morcegos",
+                "nivel": 44,
+                "inimigos": [
+                    7,
+                    14,
+                    7
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 66,
+                "nome": "Harpias",
+                "nivel": 45,
+                "inimigos": [
+                    14,
+                    14
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 67,
+                "nome": "Harpias",
+                "nivel": 46,
+                "inimigos": [
+                    14,
+                    14,
+                    14
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 68,
+                "nome": "Pass\u00e1ro",
+                "nivel": 47,
+                "inimigos": [
+                    15
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 69,
+                "nome": "P\u00e1ssaro e Galinhas",
+                "nivel": 48,
+                "inimigos": [
+                    13,
+                    15,
+                    13
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 70,
+                "nome": "Passaro, Galinha e Harpia",
+                "nivel": 47,
+                "inimigos": [
+                    13,
+                    15,
+                    14
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 71,
+                "nome": "P\u00e1ssaros",
+                "nivel": 48,
+                "inimigos": [
+                    15,
+                    15
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 72,
+                "nome": "P\u00e1ssaros",
+                "nivel": 49,
+                "inimigos": [
+                    15,
+                    15,
+                    15
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 73,
+                "nome": "P\u00e1ssaros e Harpia",
+                "nivel": 48,
+                "inimigos": [
+                    15,
+                    14,
+                    15
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 74,
+                "nome": "P\u00e1ssaros Grande",
+                "nivel": 49,
+                "inimigos": [
+                    16
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 74,
+                "nome": "P\u00e1ssaros",
+                "nivel": 49,
+                "inimigos": [
+                    15,
+                    16,
+                    15
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 75,
+                "nome": "P\u00e1ssaros",
+                "nivel": 50,
+                "inimigos": [
+                    16,
+                    16
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 76,
+                "nome": "P\u00e1ssaros",
+                "nivel": 50,
+                "inimigos": [
+                    16,
+                    16,
+                    16
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 76,
+                "nome": "Magos esqueletos",
+                "nivel": 50,
+                "inimigos": [
+                    19,
+                    19
+                ],
+                "mapa": 6
+            },
+            {
+                "id": 77,
+                "nome": "Soldados esqueleto",
+                "nivel": 50,
+                "inimigos": [
+                    18,
+                    18
+                ],
+                "mapa": 6
+            },
+            {
+                "id": 78,
+                "nome": "Esqueleto",
+                "nivel": 50,
+                "inimigos": [
+                    18,
+                    19
+                ],
+                "mapa": 6
+            },
+            {
+                "id": 79,
+                "nome": "Soldados esqueleto",
+                "nivel": 50,
+                "inimigos": [
+                    18,
+                    18,
+                    18
+                ],
+                "mapa": 6
+            },
+            {
+                "id": 80,
+                "nome": "Soldados esqueleto",
+                "nivel": 50,
+                "inimigos": [
+                    18,
+                    19,
+                    18
+                ],
+                "mapa": 6
+            },
+            {
+                "id": 81,
+                "nome": "O Anci\u00e3o",
+                "nivel": 50,
+                "inimigos": [
+                    3,
+                    20,
+                    3
+                ],
+                "mapa": 1
+            },
+            {
+                "id": 82,
+                "nome": "A grande Serpente",
+                "nivel": 50,
+                "inimigos": [
+                    21
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 83,
+                "nome": "O Guardi\u00e3o de Pedra",
+                "nivel": 50,
+                "inimigos": [
+                    22
+                ],
+                "mapa": 3
+            },
+            {
+                "id": 84,
+                "nome": "Lorde Vampiro",
+                "nivel": 50,
+                "inimigos": [
+                    7,
+                    23,
+                    7
+                ],
+                "mapa": 4
+            },
+            {
+                "id": 85,
+                "nome": "O Grande Drag\u00e3o",
+                "nivel": 50,
+                "inimigos": [
+                    24
+                ],
+                "mapa": 5
+            },
+            {
+                "id": 100,
+                "nome": "Rei das Sombras",
+                "nivel": 50,
+                "inimigos": [
+                    18,
+                    25,
+                    18
+                ],
+                "mapa": 6
+            },
+            {
+                "id": 101,
+                "nome": "Pirata",
+                "nivel": 41,
+                "inimigos": [
+                    26
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 102,
+                "nome": "Pirata2",
+                "nivel": 42,
+                "inimigos": [
+                    26,
+                    26
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 102,
+                "nome": "Pirata2",
+                "nivel": 43,
+                "inimigos": [
+                    26,
+                    26,
+                    26
+                ],
+                "mapa": 2
+            },
+            {
+                "id": 103,
+                "nome": "Capit\u00e3o Hammerhead",
+                "nivel": 45,
+                "inimigos": [
+                    26,
+                    27,
+                    26
+                ],
+                "mapa": 2
+            }
+        ],
+        "inimigos": [
+            {
+                "id": 1,
+                "nome": "Vespa",
+                "imagem": "abelha",
+                "descricao": "Um inseto muito perigoso que habita na floresta",
+                "local": "Floresta",
+                "nivel": 1,
+                "hp": 13,
+                "atk": 21,
+                "def": 2,
+                "exp": 10,
+                "coins": 10,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 5,
+                        "chances": 30
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nome": "Inseto",
+                "imagem": "inseto",
+                "descricao": "Um inseto muito estranho das florestas",
+                "local": "Floresta",
+                "nivel": 3,
+                "hp": 30,
+                "atk": 30,
+                "def": 5,
+                "exp": 20,
+                "coins": 15,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 60
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 1,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nome": "Cogumelo",
+                "imagem": "cogumelo",
+                "descricao": "Um cogumelo m\u00e1gico que ganhou vida e agora protege a floresta",
+                "local": "Floresta",
+                "nivel": 8,
+                "hp": 50,
+                "atk": 45,
+                "def": 10,
+                "exp": 50,
+                "coins": 50,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 60
+                    },
+                    {
+                        "idAcao": 4,
+                        "chances": 60
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 6,
+                        "chances": 60
+                    },
+                    {
+                        "id": 2,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "nome": "Lagosta",
+                "imagem": "lagosta",
+                "descricao": "Uma lagosta gigante encontrada na praia",
+                "local": "Praia",
+                "nivel": 10,
+                "hp": 100,
+                "atk": 50,
+                "def": 12,
+                "exp": 80,
+                "coins": 80,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 60
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 60
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 2,
+                        "chances": 5
+                    },
+                    {
+                        "id": 1,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "nome": "Peixe",
+                "imagem": "peixe",
+                "descricao": "Uma peixe humanoide muito estranho",
+                "local": "Praia",
+                "nivel": 13,
+                "hp": 140,
+                "atk": 55,
+                "def": 10,
+                "exp": 100,
+                "coins": 100,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 2,
+                        "chances": 5
+                    },
+                    {
+                        "id": 603,
+                        "chances": 70
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "nome": "Polvo",
+                "imagem": "polvo",
+                "descricao": "Um monstro muito perigoso encontrado na praia",
+                "local": "Praia",
+                "nivel": 18,
+                "hp": 200,
+                "atk": 75,
+                "def": 20,
+                "exp": 250,
+                "coins": 250,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 2,
+                        "chances": 5
+                    },
+                    {
+                        "id": 604,
+                        "chances": 60
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "nome": "Morcego",
+                "imagem": "morcego",
+                "descricao": "Uma criatura noturna assustadora",
+                "local": "Caverna",
+                "nivel": 20,
+                "hp": 259,
+                "atk": 80,
+                "def": 25,
+                "exp": 300,
+                "coins": 300,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 40
+                    },
+                    {
+                        "idAcao": 7,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 2,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "nome": "Goblin",
+                "imagem": "goblin",
+                "descricao": "Uma criatura verde que mora nas cavernas",
+                "local": "Caverna",
+                "nivel": 24,
+                "hp": 300,
+                "atk": 90,
+                "def": 30,
+                "exp": 420,
+                "coins": 420,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 9,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 1,
+                        "chances": 5
+                    },
+                    {
+                        "id": 3,
+                        "chances": 10
+                    },
+                    {
+                        "id": 4,
+                        "chances": 20
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "nome": "Ogro",
+                "imagem": "ogro",
+                "descricao": "Uma criatura muito perigosa que mora nas cavernas",
+                "local": "Caverna",
+                "nivel": 24,
+                "hp": 400,
+                "atk": 100,
+                "def": 25,
+                "exp": 500,
+                "coins": 500,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 2,
+                        "chances": 5
+                    },
+                    {
+                        "id": 607,
+                        "chances": 60
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "nome": "Boneca",
+                "imagem": "boneca",
+                "descricao": "Uma boneca amaldi\u00e7oada",
+                "local": "Casa Mal Assombrada",
+                "nivel": 30,
+                "hp": 410,
+                "atk": 120,
+                "def": 30,
+                "exp": 600,
+                "coins": 600,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 7,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 610,
+                        "chances": 50
+                    },
+                    {
+                        "id": 606,
+                        "chances": 50
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "nome": "Zumbi",
+                "imagem": "zoombi",
+                "descricao": "Uma homem amaldi\u00e7oado que vaga pelo mundo a procura de c\u00e9rebro",
+                "local": "Casa Mal Assombrada",
+                "imuneParalisia": true,
+                "nivel": 33,
+                "hp": 420,
+                "atk": 130,
+                "def": 40,
+                "exp": 750,
+                "coins": 750,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 7,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 608,
+                        "chances": 40
+                    },
+                    {
+                        "id": 1,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "nome": "Fanstama",
+                "imagem": "fantasma",
+                "descricao": "Um fantasma que gosta de assombrar casas",
+                "local": "Casa Mal Assombrada",
+                "imuneParalisia": true,
+                "nivel": 37,
+                "hp": 450,
+                "atk": 140,
+                "def": 40,
+                "exp": 1000,
+                "coins": 1000,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 30
+                    },
+                    {
+                        "idAcao": 7,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 609,
+                        "chances": 40
+                    },
+                    {
+                        "id": 1,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "nome": "Galinha",
+                "imagem": "galinha",
+                "descricao": "Um animal muito estranho e poderoso que habita nas montanhas",
+                "local": "Montanha",
+                "nivel": 40,
+                "hp": 460,
+                "atk": 140,
+                "def": 45,
+                "exp": 1000,
+                "coins": 1000,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 4,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 605,
+                        "chances": 60
+                    },
+                    {
+                        "id": 602,
+                        "chances": 60
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "nome": "Harpia",
+                "imagem": "harpia",
+                "descricao": "Uma criatura mistica que habita nas montanhas",
+                "local": "Montanha",
+                "nivel": 43,
+                "hp": 475,
+                "atk": 150,
+                "def": 40,
+                "exp": 1400,
+                "coins": 1400,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 4,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 605,
+                        "chances": 30
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "nome": "Passaro",
+                "imagem": "passaroGrande",
+                "descricao": "Uma esp\u00e9cie de dinossauro voador encontrado nas montanhas",
+                "local": "Montanha",
+                "nivel": 47,
+                "hp": 500,
+                "atk": 160,
+                "def": 55,
+                "exp": 1750,
+                "coins": 1750,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 11,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 605,
+                        "chances": 30
+                    },
+                    {
+                        "id": 1,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "nome": "Passaro Grande",
+                "imagem": "passaroGrande2",
+                "descricao": "Um pass\u00e1ro muito grande que habita nas montanhas e afugenta quem chega perto",
+                "local": "Montanha",
+                "nivel": 49,
+                "hp": 520,
+                "atk": 170,
+                "def": 50,
+                "exp": 2000,
+                "coins": 2000,
+                "acoes": [
+                    {
+                        "idAcao": 4,
+                        "chances": 20
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 90
+                    },
+                    {
+                        "idAcao": 11,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 605,
+                        "chances": 30
+                    },
+                    {
+                        "id": 1,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "nome": "Rei Goblin",
+                "imagem": "goblinRei",
+                "descricao": "A esp\u00e9cie de goblin mais poderosa que habita as cavernas",
+                "local": "Caverna",
+                "imuneParalisia": true,
+                "nivel": 39,
+                "hp": 3000,
+                "atk": 240,
+                "def": 40,
+                "exp": 750,
+                "coins": 750,
+                "acoes": [
+                    {
+                        "idAcao": 5,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 11,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 8,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 2,
+                        "chances": 10
+                    },
+                    {
+                        "id": 1,
+                        "chances": 5
+                    },
+                    {
+                        "id": 607,
+                        "chances": 30
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "nome": "Esqueleto",
+                "imagem": "soldadoEsqueleto",
+                "descricao": "Um soldado que morreu tentando derrotar o lorde das sombras",
+                "local": "Castelo",
+                "nivel": 50,
+                "hp": 800,
+                "atk": 220,
+                "def": 95,
+                "exp": 2200,
+                "coins": 2200,
+                "acoes": [
+                    {
+                        "idAcao": 5,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 11,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 8,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 1,
+                        "chances": 5
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "nome": "Esqueleto Mago",
+                "imagem": "magoEsqueleto",
+                "descricao": "Um mago que morreu tentando derrotar o lorde das sombras",
+                "local": "Castelo",
+                "nivel": 50,
+                "hp": 800,
+                "atk": 210,
+                "def": 100,
+                "exp": 2200,
+                "coins": 2200,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 7,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 611,
+                        "chances": 30
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "nome": "Anci\u00e3o",
+                "imagem": "arvore",
+                "descricao": "Uma \u00e1rvore m\u00e1gica que protege a floresta e seus Habitantes",
+                "local": "Floresta",
+                "imuneParalisia": true,
+                "nivel": 50,
+                "hp": 7500,
+                "atk": 260,
+                "def": 150,
+                "exp": 2200,
+                "coins": 2200,
+                "acoes": [
+                    {
+                        "idAcao": 1,
+                        "chances": 30
+                    },
+                    {
+                        "idAcao": 4,
+                        "chances": 40
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 85
+                    },
+                    {
+                        "idAcao": 7,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 612,
+                        "chances": 100
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "nome": "Serpente",
+                "imagem": "serpente",
+                "descricao": "Uma grande serpente que habita nas profundezas do mar",
+                "local": "Praia",
+                "imuneParalisia": true,
+                "nivel": 50,
+                "hp": 5000,
+                "atk": 260,
+                "def": 120,
+                "exp": 2200,
+                "coins": 2200,
+                "acoes": [
+                    {
+                        "idAcao": 11,
+                        "chances": 20
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 40
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 8,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 613,
+                        "chances": 100
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "nome": "Guardi\u00e3o",
+                "imagem": "guardiaoCavera",
+                "descricao": "Um poderoso monstro criado pelos goblins para proteger a caverna",
+                "local": "Caverna",
+                "imuneParalisia": true,
+                "nivel": 50,
+                "hp": 5000,
+                "atk": 250,
+                "def": 150,
+                "exp": 2200,
+                "coins": 2200,
+                "acoes": [
+                    {
+                        "idAcao": 11,
+                        "chances": 20
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 40
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 2,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 614,
+                        "chances": 100
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "nome": "Vampiro",
+                "imagem": "vampiro",
+                "descricao": "O senhor da casa mal assombrada. Um ser imortal que se alimenta de sangue",
+                "local": "Casa Mal Assombrada",
+                "imuneParalisia": true,
+                "nivel": 50,
+                "hp": 6000,
+                "atk": 260,
+                "def": 200,
+                "exp": 2200,
+                "coins": 2200,
+                "acoes": [
+                    {
+                        "idAcao": 5,
+                        "chances": 30
+                    },
+                    {
+                        "idAcao": 4,
+                        "chances": 40
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 11,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 8,
+                        "chances": 90
+                    },
+                    {
+                        "idAcao": 9,
+                        "chances": 95
+                    },
+                    {
+                        "idAcao": 10,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 616,
+                        "chances": 100
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "nome": "Drag\u00e3o",
+                "imagem": "dragao",
+                "descricao": "Uma besta poderosa que habita no topo da montanha",
+                "local": "Montanha",
+                "imuneParalisia": true,
+                "nivel": 50,
+                "hp": 5500,
+                "atk": 240,
+                "def": 120,
+                "exp": 2200,
+                "coins": 2200,
+                "acoes": [
+                    {
+                        "idAcao": 11,
+                        "chances": 20
+                    },
+                    {
+                        "idAcao": 8,
+                        "chances": 30
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 10,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 615,
+                        "chances": 100
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "nome": "Lorde",
+                "imagem": "monstro",
+                "descricao": "A criatura mais poderosa que j\u00e1 passou por esse mundo",
+                "local": "Castelo",
+                "imuneParalisia": true,
+                "nivel": 50,
+                "hp": 7500,
+                "atk": 270,
+                "def": 150,
+                "exp": 2266,
+                "coins": 2266,
+                "acoes": [
+                    {
+                        "idAcao": 11,
+                        "chances": 20
+                    },
+                    {
+                        "idAcao": 6,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 8,
+                        "chances": 90
+                    },
+                    {
+                        "idAcao": 10,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 617,
+                        "chances": 100
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "nome": "Pirata",
+                "imagem": "pirata",
+                "descricao": "Uma homem do mar muito perigoso",
+                "local": "Praia",
+                "nivel": 43,
+                "hp": 500,
+                "atk": 90,
+                "def": 60,
+                "exp": 1400,
+                "coins": 1400,
+                "acoes": [
+                    {
+                        "idAcao": 6,
+                        "chances": 50
+                    },
+                    {
+                        "idAcao": 5,
+                        "chances": 70
+                    },
+                    {
+                        "idAcao": 9,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 618,
+                        "chances": 70
+                    },
+                    {
+                        "id": 7,
+                        "chances": 70
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "nome": "Hammerhead",
+                "imagem": "capitao",
+                "descricao": "Um lend\u00e1rio capit\u00e3o pirata que vive saqueando portos ao redor do mundo",
+                "local": "Praia",
+                "nivel": 45,
+                "hp": 3000,
+                "atk": 750,
+                "def": 70,
+                "exp": 5000,
+                "coins": 5000,
+                "acoes": [
+                    {
+                        "idAcao": 5,
+                        "chances": 30
+                    },
+                    {
+                        "idAcao": 11,
+                        "chances": 80
+                    },
+                    {
+                        "idAcao": 10,
+                        "chances": 90
+                    },
+                    {
+                        "idAcao": 9,
+                        "chances": 100
+                    }
+                ],
+                "itens": [
+                    {
+                        "id": 608,
+                        "chances": 100
+                    },
+                    {
+                        "id": 7,
+                        "chances": 100
+                    },
+                    {
+                        "id": 1,
+                        "chances": 5
+                    },
+                    {
+                        "id": 8,
+                        "chances": 20
+                    },
+                    {
+                        "id": 9,
+                        "chances": 20
+                    }
+                ]
+            }
+        ],
+        "acoes": [
+            {
+                "id": 1,
+                "nome": "Atacar",
+                "acao": "inimigoAtacar"
+            },
+            {
+                "id": 2,
+                "nome": "Passar a vez",
+                "acao": "inimigoPassarAvez"
+            },
+            {
+                "id": 3,
+                "nome": "Defender",
+                "acao": "inimigoDefender"
+            },
+            {
+                "id": 4,
+                "nome": "Curar",
+                "acao": "inimigoCurar"
+            },
+            {
+                "id": 5,
+                "nome": "Ataque Duplo",
+                "acao": "inimigoAtaqueDuplo"
+            },
+            {
+                "id": 6,
+                "nome": "Ataque Forte",
+                "acao": "inimigoAtaqueForte"
+            },
+            {
+                "id": 7,
+                "nome": "Sugar vida",
+                "acao": "inimigoVampirismo"
+            },
+            {
+                "id": 8,
+                "nome": "Ponto fraco",
+                "acao": "inimigoPontoFraco"
+            },
+            {
+                "id": 9,
+                "nome": "Roubar",
+                "acao": "inimigoRoubar"
+            },
+            {
+                "id": 10,
+                "nome": "Assasinato Arriscado",
+                "acao": "inimigoAssassinatoArriscado"
+            },
+            {
+                "id": 11,
+                "nome": "Ataque Triplo",
+                "acao": "inimigoAtaqueTriplo"
+            }
+        ],
+        "habilidade": [
+            {
+                "id": 1,
+                "nome": "Descan\u00e7ar",
+                "descricao": "Recupera 5% do Hp e 5% do MP",
+                "icone": "zzz",
+                "mp": 0,
+                "acao": "heroiDescansar"
+            },
+            {
+                "id": 2,
+                "nome": "F\u00faria",
+                "descricao": "Aumenta em 20% o ataque por 3 turnos",
+                "icone": "maisForca",
+                "classe": "Guerreiro",
+                "nivel": 2,
+                "mp": 10,
+                "acao": "heroiFuria"
+            },
+            {
+                "id": 3,
+                "nome": "Esconder-se",
+                "descricao": "Aumenta em 20% a defesa por 3 turnos",
+                "icone": "escuridao",
+                "classe": "Arqueiro",
+                "nivel": 2,
+                "mp": 10,
+                "acao": "heroiEsconder"
+            },
+            {
+                "id": 4,
+                "nome": "Cura",
+                "descricao": "Cura 20% do HP",
+                "icone": "cura",
+                "classe": "Mago",
+                "nivel": 2,
+                "mp": 10,
+                "acao": "heroiCurar"
+            },
+            {
+                "id": 5,
+                "nome": "Roubar",
+                "descricao": "Rouba bravecoins do inimigo",
+                "icone": "saquinho",
+                "classe": "Ladino",
+                "nivel": 2,
+                "mp": 10,
+                "acao": "heroiRoubar"
+            },
+            {
+                "id": 6,
+                "nome": "Atordoar",
+                "descricao": "Diminui a defesa e o ataque dos inimigos em 20% durante 4 turnos",
+                "icone": "habilidadeMusica",
+                "classe": "Bardo",
+                "nivel": 2,
+                "mp": 10,
+                "acao": "heroiAtordoar"
+            },
+            {
+                "id": 7,
+                "nome": "Melodia da prote\u00e7\u00e3o",
+                "descricao": "Aumenta sua defesa em 40% durante 4 turnos",
+                "icone": "defenderMagica",
+                "classe": "Bardo",
+                "nivel": 10,
+                "mp": 15,
+                "acao": "heroiMelodiaDefesa"
+            },
+            {
+                "id": 8,
+                "nome": "Ataque forte",
+                "descricao": "Ataque com 50% a mais de for\u00e7a",
+                "icone": "socoForte",
+                "classe": "Guerreiro",
+                "nivel": 10,
+                "mp": 40,
+                "acao": "heroiAtaqueForte"
+            },
+            {
+                "id": 9,
+                "nome": "M\u00faltiplos disparos",
+                "descricao": "Ataca todos os inimigos de uma vez",
+                "icone": "arco",
+                "classe": "Arqueiro",
+                "nivel": 10,
+                "mp": 50,
+                "acao": "heroiExplosao"
+            },
+            {
+                "id": 10,
+                "nome": "Explos\u00e3o",
+                "descricao": "Ataca todos os inimigos de uma vez",
+                "icone": "explosao",
+                "classe": "Mago",
+                "nivel": 10,
+                "mp": 50,
+                "acao": "heroiExplosao"
+            },
+            {
+                "id": 11,
+                "nome": "Ataque paralizante",
+                "descricao": "Ataca paralizando o inimigo por 2 turnos",
+                "icone": "paralizar",
+                "classe": "Ladino",
+                "nivel": 10,
+                "mp": 50,
+                "acao": "heroiAtaqueParalizante"
+            },
+            {
+                "id": 12,
+                "nome": "Sinfonia paralisante",
+                "descricao": "Paralisa os inimigos por 2 turnos",
+                "icone": "paralizar",
+                "classe": "Bardo",
+                "nivel": 15,
+                "mp": 50,
+                "acao": "heroiSinfoniaParalisante"
+            },
+            {
+                "id": 13,
+                "nome": "Flecha atordoante",
+                "descricao": "Diminui a DEF e o ATK de um inimigo em 20% durante 3 turnos",
+                "icone": "confundir",
+                "classe": "Arqueiro",
+                "nivel": 15,
+                "mp": 40,
+                "acao": "heroiAtaqueAtordoante"
+            },
+            {
+                "id": 14,
+                "nome": "A magia \u00e9 mais importante",
+                "descricao": "Sacrifica 33% de seu Hp ao seu guia em troca de recarregar completamente seu MP",
+                "icone": "magica",
+                "classe": "Mago",
+                "nivel": 15,
+                "mp": 0,
+                "acao": "heroiMagiaMaisImportante"
+            },
+            {
+                "id": 15,
+                "nome": "Sugar vida",
+                "descricao": "Um ataque normal que cura sua vida equivalentemente a vida tirada de seu inimigo",
+                "icone": "envenenar",
+                "classe": "Ladino",
+                "nivel": 15,
+                "mp": 40,
+                "acao": "heroiSugarVida"
+            },
+            {
+                "id": 16,
+                "nome": "Corte atordoante",
+                "descricao": "Diminui a DEF e o ATK de um inimigo em 20% durante 3 turnos",
+                "icone": "confundir",
+                "classe": "Guerreiro",
+                "nivel": 15,
+                "mp": 40,
+                "acao": "heroiAtaqueAtordoante"
+            },
+            {
+                "id": 17,
+                "nome": "Atacar ponto fraco",
+                "descricao": "Ataque ignorando a defesa do inimigo",
+                "icone": "espada",
+                "classe": "Guerreiro",
+                "nivel": 20,
+                "mp": 75,
+                "acao": "heroiPontoFraco"
+            },
+            {
+                "id": 18,
+                "nome": "Flechas paralisantes",
+                "descricao": "Ataca todos os inimigos de uma vez com 50% de for\u00e7a com flechas paralisantes por 2 turnos",
+                "icone": "paralizar",
+                "classe": "Arqueiro",
+                "nivel": 20,
+                "mp": 75,
+                "acao": "heroiFlechasParalisantes"
+            },
+            {
+                "id": 19,
+                "nome": "Congelar",
+                "descricao": "Ataca todos os inimigos de uma vez com 20% de for\u00e7a paralisando-os por 3 turnos",
+                "icone": "gelo",
+                "classe": "Mago",
+                "nivel": 20,
+                "mp": 75,
+                "acao": "heroiCongelar"
+            },
+            {
+                "id": 20,
+                "nome": "Ataque duplo",
+                "descricao": "Ataca o inimigo duas vezes",
+                "icone": "faca",
+                "classe": "Ladino",
+                "nivel": 20,
+                "mp": 75,
+                "acao": "heroiAtaqueDuplo"
+            },
+            {
+                "id": 21,
+                "nome": "Sinfonia concentrada",
+                "descricao": "Ataca um \u00fanico inimigo com 300% de for\u00e7a",
+                "icone": "habilidadeMusica",
+                "classe": "Bardo",
+                "nivel": 20,
+                "mp": 65,
+                "acao": "heroiSinfoniaConcentrada"
+            },
+            {
+                "id": 22,
+                "nome": "Sua for\u00e7a \u00e9 minha for\u00e7a",
+                "descricao": "Ataque o inimigo com seu ataque mais o ataque dele",
+                "icone": "confundir",
+                "classe": "Guerreiro",
+                "nivel": 30,
+                "mp": 75,
+                "acao": "heroiUsarForcaInimigo"
+            },
+            {
+                "id": 23,
+                "nome": "Flechas certeiras",
+                "descricao": "Ataca todos os inimigos ignorando a defesa",
+                "icone": "ataqueDragao",
+                "classe": "Arqueiro",
+                "nivel": 30,
+                "mp": 100,
+                "acao": "heroiFlechasCerteiras"
+            },
+            {
+                "id": 24,
+                "nome": "A pena \u00e9 mais forte do que a espada",
+                "descricao": "Aumenta o ataque em 200% por 3 turnos mais te impede de usar habilidades",
+                "icone": "pena",
+                "classe": "Mago",
+                "nivel": 30,
+                "mp": 75,
+                "acao": "heroiPenaMaisForteQueEspada"
+            },
+            {
+                "id": 25,
+                "nome": "Atacar ponto fraco",
+                "descricao": "Ataque ignorando a defesa do inimigo",
+                "icone": "faca",
+                "classe": "Ladino",
+                "nivel": 30,
+                "mp": 75,
+                "acao": "heroiPontoFraco"
+            },
+            {
+                "id": 26,
+                "nome": "Sinfonia poderosa",
+                "descricao": "Ataca todos os inimigos com 100% a mais de for\u00e7a",
+                "icone": "habilidadeMusica",
+                "classe": "Bardo",
+                "nivel": 30,
+                "mp": 75,
+                "acao": "heroiSinfoniaPoderosa"
+            },
+            {
+                "id": 27,
+                "nome": "Ataque triplo",
+                "descricao": "Ataque o inimigo com uma sequ\u00eancia de tr\u00eas ataques",
+                "icone": "espadaUp",
+                "classe": "Guerreiro",
+                "nivel": 40,
+                "mp": 90,
+                "acao": "heroiAtaqueTriplo"
+            },
+            {
+                "id": 28,
+                "nome": "Disparos concentrados",
+                "descricao": "Ataca um inimigo quatro vezes",
+                "icone": "arco",
+                "classe": "Arqueiro",
+                "nivel": 40,
+                "mp": 100,
+                "acao": "heroiDisparosConcentrados"
+            },
+            {
+                "id": 29,
+                "nome": "Relampagos",
+                "descricao": "Atinge um inimigo tr\u00eas vezes com uma pequena chance de paralizar",
+                "icone": "raio",
+                "classe": "Mago",
+                "nivel": 40,
+                "mp": 100,
+                "acao": "heroiRelampagos"
+            },
+            {
+                "id": 30,
+                "nome": "Um ato de coragem",
+                "descricao": "Aumenta mais 200% de ataque e diminui a defesa pela metade por 3 turnos",
+                "icone": "maisForca",
+                "classe": "Ladino",
+                "nivel": 40,
+                "mp": 75,
+                "acao": "heroiAtoDeCoragem"
+            },
+            {
+                "id": 31,
+                "nome": "Allegro",
+                "descricao": "Ataca todos tr\u00eas vezes",
+                "icone": "habilidadeMusica",
+                "classe": "Bardo",
+                "nivel": 40,
+                "mp": 150,
+                "acao": "heroiAllegro"
+            },
+            {
+                "id": 32,
+                "nome": "Proteger aqueles que ama",
+                "descricao": "O poder do protagonista. Quanto mais baixo o seu HP mais o seu ataque aumenta. Dura\u00e7\u00e3o 3 turnos",
+                "icone": "calcifer",
+                "classe": "Guerreiro",
+                "nivel": 50,
+                "mp": 500,
+                "acao": "heroiProtagonismo"
+            },
+            {
+                "id": 33,
+                "nome": "Tudo ou nada",
+                "descricao": "Atinge todos os inimigos com 500% de ataque mais te deixa sem muni\u00e7\u00e3o por 3 turnos",
+                "icone": "calcifer",
+                "classe": "Arqueiro",
+                "nivel": 50,
+                "mp": 200,
+                "acao": "heroiTudoOuNadaArqueiro"
+            },
+            {
+                "id": 34,
+                "nome": "Tudo ou nada",
+                "descricao": "Atinge todos os inimigos com 500% de ataque mais reduz o MP a 0 <br \/><b>Necess\u00e1rio ter pelo menos metade do MP<\/b>",
+                "icone": "raio",
+                "classe": "Mago",
+                "nivel": 50,
+                "mp": 200,
+                "acao": "heroiTudoOuNada"
+            },
+            {
+                "id": 35,
+                "nome": "Um assassinato arriscado",
+                "descricao": "Chance de 15% de matar um inimigo na hora",
+                "icone": "assasinato",
+                "classe": "Ladino",
+                "nivel": 50,
+                "mp": 200,
+                "acao": "heroiAssassinatoArrisacdo"
+            },
+            {
+                "id": 36,
+                "nome": "Sinfonia final",
+                "descricao": "Atinge todos os inimigos com 500% de ataque mais reduz seu HP pela metade",
+                "icone": "calcifer",
+                "classe": "Bardo",
+                "nivel": 50,
+                "mp": 200,
+                "acao": "heroiSinfoniaFinal"
+            }
+        ],
+        "quest": [
+            {
+                "id": 1,
+                "avatar": "74",
+                "nome": "Jos\u00e9 precisa de P\u00e3es Fiado",
+                "descricao": "Ol\u00e1, aqui quem fala \u00e9 o Jos\u00e9. Voc\u00ea \u00e9 novo por aqui n\u00e3o \u00e9? <br \/>Ser\u00e1 que poderia me ajudar com uma coisa. O padeiro da minha cidade n\u00e3o quer me vender nenhum p\u00e3o fiado. Mesmo eu tendo garantido para ele que no dia de S\u00e3o nunca eu pago. Ser\u00e1 que voc\u00ea poderia conseguir uns p\u00e3es fiado para mim?",
+                "mensagemRecompensa": "Muito obrigado. Esses s\u00e3o os melhor p\u00e3o do mundo",
+                "bravecois": 0,
+                "exp": 50,
+                "nivel": 1,
+                "itens": [
+                    {
+                        "id": 600,
+                        "qtd": 5
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "avatar": "47",
+                "nome": "Vamos acabar com as vespas",
+                "descricao": "Ol\u00e1, prazer em conhece-lo. Me chamo  <b class='colorRoxo'>Eliyud<\/b>. Ser\u00e1 que voc\u00ea n\u00e3o poderia me fazer um favor em troca de uns trocados? O qu\u00ea? Ah. \u00c9 simples! Tem umas vespas estranhas que est\u00e3o rondando a cidade a algum, parece que elas vem da floresta. Ser\u00e1 que poderia se livrar de algumas delas para mim? Acho que se come\u00e7armos a ataca-las elas nos deixam em paz.",
+                "mensagemRecompensa": "Ah, muito obrigado. Porto Sul estara mais seguro agora. Como recompensa fique aqui com essa bomba que eu achei por ai.",
+                "bravecois": 250,
+                "exp": 100,
+                "nivel": 1,
+                "monstros": [
+                    {
+                        "id": 1,
+                        "qtd": 10
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 4,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "avatar": "5",
+                "nome": "Conhe\u00e7a a pousada do porto",
+                "descricao": "Ol\u00e1, aqui \u00e9 o <b class='colorYellow'>Alkemarra<\/b>. Voc\u00ea j\u00e1 conhece a nossa pousada? Devia passar uma noite de sono l\u00e1. \u00c9 revigorante. Voc\u00ea n\u00e3o vai se arrepender",
+                "mensagemRecompensa": "Falei que n\u00e3o ia se arrepender...",
+                "bravecois": 0,
+                "exp": 100,
+                "nivel": 1,
+                "inn": 1
+            },
+            {
+                "id": 4,
+                "avatar": "48",
+                "nome": "Alimente o andarilho",
+                "descricao": "Ol\u00e1, me chamo <b class='colorBlue'>DadoCWB<\/b> e ap\u00f3s caminhar por dois dias consecutivos sem comer e sem descansar eu quase morri de exaust\u00e3o. Voc\u00ea poderia me ver algo para comer?",
+                "mensagemRecompensa": "Muito obrigado. Esses s\u00e3o os melhor p\u00e3o do mundo",
+                "bravecois": 0,
+                "exp": 250,
+                "nivel": 2,
+                "itens": [
+                    {
+                        "id": 600,
+                        "qtd": 10
+                    },
+                    {
+                        "id": 601,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "avatar": "18",
+                "nome": "Algo doce",
+                "descricao": "Prazer em conhece-lo(a). Sou <b class='colorRed'>Jully Anne<\/b> a algum tempo estou procurando algo doce para comprar na loja. Mas s\u00f3 encontro p\u00e3o e laranja. Voc\u00ea poderia me ajudar?",
+                "mensagemRecompensa": "Muito obrigada. Finalmente algo diferente por aqui.",
+                "bravecois": 500,
+                "exp": 250,
+                "nivel": 2,
+                "itens": [
+                    {
+                        "id": 5,
+                        "qtd": 5
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "avatar": "47",
+                "nome": "Vamos acabar com as vespas 2",
+                "descricao": "Ol\u00e1, aqui \u00e9 o <b class='colorRoxo'>Eliyud<\/b> de novo. Parece que s\u00f3 eliminar as Vespas n\u00e3o ajudou. Pelo contr\u00e1rio. Dessa vez apareceram uns insetos mais estranhos ainda. Poderia eliminar alguns deles? Isso ajudaria bastante.",
+                "mensagemRecompensa": "Ah, muito obrigado. Porto Sul estara mais seguro agora. Fique com esse frasco com uma caveira desenhada que achei por ai como recompensa",
+                "bravecois": 400,
+                "exp": 350,
+                "nivel": 3,
+                "needQuest": 2,
+                "monstros": [
+                    {
+                        "id": 2,
+                        "qtd": 10
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 3,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "avatar": "18",
+                "nome": "Mais doce",
+                "descricao": "Ol\u00e1, sou eu de novo. Ser\u00e1 que voc\u00ea n\u00e3o podia me arranjar mais daquele Mel l\u00e1. Os que voc\u00ea me deu acabaram e eu n\u00e3o encontrei mais para comprar.",
+                "mensagemRecompensa": "Muito obrigada. Me ajudou muito.",
+                "bravecois": 1000,
+                "exp": 500,
+                "nivel": 5,
+                "needQuest": 5,
+                "itens": [
+                    {
+                        "id": 5,
+                        "qtd": 30
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 502,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "avatar": "76",
+                "nome": "Elimine cogumelos",
+                "descricao": "Me chamo <b class='colorAzulCondado'>SimonMuran<\/b>. Estava vagando pela floresta quando de repente me deparei com uns cogumelos muito estranho que tentaram me atacar. Voc\u00ea poderia ajudar esse velho elfo azul a eliminar essas criaturas?",
+                "mensagemRecompensa": "Muito obrigado. Agora a floresta esta cada vez mais segura",
+                "bravecois": 750,
+                "exp": 500,
+                "nivel": 8,
+                "monstros": [
+                    {
+                        "id": 3,
+                        "qtd": 15
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 1,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "avatar": "148",
+                "nome": "Cogumelos multantes",
+                "descricao": "Ol\u00e1, me chamo <b class='colorAzulCondado'>Bento<\/b>. Voc\u00ea viu esses cogumelos estranhos que apareceram na floresta? Eu gostaria muito de poder estuda-los mais. Ser\u00e1 que voc\u00ea n\u00e3o poderia trazer alguns deles para mim?",
+                "mensagemRecompensa": "Obrigado. Agora vou poder descobrir o que causou essas multa\u00e7\u00f5es.",
+                "bravecois": 1200,
+                "exp": 1000,
+                "nivel": 9,
+                "itens": [
+                    {
+                        "id": 6,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "avatar": "141",
+                "nome": "Lagostas est\u00e3o atacando",
+                "descricao": "Ol\u00e1, me chamo <b class='colorYellow'>Kazzter<\/b>. Voc\u00ea j\u00e1 deu uma volta pela praia? \u00c9 um lugar muito agradav\u00e9l. O \u00fanico problema s\u00e3o umas lagostas enormes que aparecem de vez em quando agarrando nossos p\u00e9s. Seria muito legal se algu\u00e9m pudesse dar um jeito nelas.",
+                "mensagemRecompensa": "Obrigado. Agora vou poder descobrir o que causou essas multa\u00e7\u00f5es.",
+                "bravecois": 1200,
+                "exp": 1000,
+                "nivel": 10,
+                "monstros": [
+                    {
+                        "id": 4,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "avatar": "148",
+                "nome": "Cogumelos Multantes 2",
+                "descricao": "Ol\u00e1, sou eu de novo. Descobri muitas coisas interessantes analisando os cogumelos que voc\u00ea me deu. Mas preciso de mais informa\u00e7\u00f5es. Ser\u00e1 que poderia conseguir mais alguns para mim?",
+                "mensagemRecompensa": "Obrigado. Agora vou poder descobrir o que causou essas multa\u00e7\u00f5es.",
+                "bravecois": 1500,
+                "exp": 1500,
+                "nivel": 11,
+                "needQuest": 9,
+                "itens": [
+                    {
+                        "id": 6,
+                        "qtd": 40
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 504,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "avatar": "141",
+                "nome": "Lagostas est\u00e3o atacando",
+                "descricao": "Muito obrigado por ter nos ajudado com as lagostas da outra vez. Mas apareceram mais. Ontem mesmo fui andar pela praia e uma lagosta gigante atacou meu p\u00e9. Poderia eliminar mais algumas para ensina-las uma li\u00e7\u00e3o?",
+                "mensagemRecompensa": "Obrigado. Agora vou poder voltar a andar pela praia em paz.",
+                "bravecois": 1500,
+                "exp": 1250,
+                "nivel": 12,
+                "monstros": [
+                    {
+                        "id": 4,
+                        "qtd": 50
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 1,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "avatar": "145",
+                "nome": "Homens Peixe",
+                "descricao": "Prazer, me chamo <b>Valor<\/b>. Voc\u00ea pode me ajudar? Estava eu ontem tranquilamente pescando an praia. Quando acabei pescando um peixe muito estranho. Era azul e human\u00f3ide. E me atacou com garras e dentes ferozes. Isso acabou completamente com meu dia de pescaria. Voc\u00ea poderia ensina-los uma li\u00e7\u00e3o e derrotar alguns deles.",
+                "mensagemRecompensa": "Obrigado. Agora vou poder voltar a andar pela praia em paz.",
+                "bravecois": 1750,
+                "exp": 1500,
+                "nivel": 13,
+                "monstros": [
+                    {
+                        "id": 5,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "avatar": "5",
+                "nome": "Peixes para o jantar",
+                "descricao": "Ol\u00e1 aventureiro. A quanto tempo? Estava pensando em fazer um jantar especial para meus amigos hoje a noite. Ser\u00e1 que voc\u00ea poderia me ajudar a pescar alguns peixes?",
+                "mensagemRecompensa": "Obrigado. Voc\u00ea est\u00e1 mais do que convidado para hoje a noite.",
+                "bravecois": 2000,
+                "exp": 2500,
+                "nivel": 14,
+                "itens": [
+                    {
+                        "id": 603,
+                        "qtd": 20
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 400,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "avatar": "145",
+                "nome": "Homens Peixe 2",
+                "descricao": "Ol\u00e1, sou eu de novo, o <b>Valor<\/b>. Voc\u00ea n\u00e3o vai acreditar. Estava hoje pescando de novo na praia quando mais peixes estranhos vieram atr\u00e1s de mim e me expulsaram da praia. Eles eram muitos. Ser\u00e1 que voc\u00ea n\u00e3o poderia ensina-los outra li\u00e7\u00e3o para que eu possa voltar a pescar em paz?",
+                "mensagemRecompensa": "Obrigado. Agora vou poder voltar a andar pela praia em paz.",
+                "bravecois": 2000,
+                "exp": 2000,
+                "nivel": 15,
+                "needQuest": 13,
+                "monstros": [
+                    {
+                        "id": 5,
+                        "qtd": 50
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "avatar": "3",
+                "nome": "Polvos",
+                "descricao": "Ol\u00e1, me chamo <b>sc19<\/b>. Me disseram que voc\u00ea pode me ajudar com um problema se eu te oferecer alguns bravecoins e experi\u00eancia. Ent\u00e3o eu estava pescando junto com um amigo na praia quando um monstro enorme apareceu afugentando a gente. Parecia um Kraken. Tinha tentaculos e dentes afiados. Voc\u00ea pode verificar isso para mim e se possivel se livrar daquela criatura?",
+                "mensagemRecompensa": "Obrigado. Agora vou poder voltar a andar pela praia em paz.",
+                "bravecois": 2500,
+                "exp": 2500,
+                "nivel": 18,
+                "monstros": [
+                    {
+                        "id": 6,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "avatar": "7",
+                "nome": "Tesouros da praia",
+                "descricao": "Ol\u00e1, me chamo <b class='colorPink'>NineK<\/b>. Pode me ajudar com uma coisa? Eu estava pegando algumas conchas na praia para dar de presente a uma amiga. Mas alguns monstros me atacaram e me expulsaram de l\u00e1. Voc\u00ea poderia me ajudar pegando algumas?",
+                "mensagemRecompensa": "Muito obrigada. Essas conchas s\u00e3o realmente lindas..",
+                "bravecois": 2750,
+                "exp": 2750,
+                "nivel": 19,
+                "itens": [
+                    {
+                        "id": 604,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "avatar": "76",
+                "nome": "Cogumelos de novo",
+                "descricao": "Ol\u00e1, sou eu de novo, <b class='colorAzulCondado'>SimonMuran<\/b>. Esses cogumelos est\u00e3o por toda a parte n\u00e3o \u00e9 mesmo. N\u00e3o posso dar um passo pelas florestas ou pela caverna sem me deparar com alguns. Voc\u00ea n\u00e3o poderia me ajudar a se livrar deles para mim? ISso ajudaria muito.",
+                "mensagemRecompensa": "Muito obrigado. Acho que agora n\u00e3o teremos mais tantos problemas com eles.",
+                "bravecois": 2500,
+                "exp": 2500,
+                "nivel": 20,
+                "needQuest": 8,
+                "monstros": [
+                    {
+                        "id": 3,
+                        "qtd": 100
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 1,
+                        "qtd": 5
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 5
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "avatar": "47",
+                "nome": "\u00d3dio por morcegos",
+                "descricao": "Ol\u00e1 meu amigo. A quanto tempo. Como andam os projetos? Ent\u00e3o, ontem a noite me deparei com um morcego enorme rondando minha casa. E eu n\u00e3o gosto nada de morcegos. Acho que essas criaturas vieram da caverna. Poderia dar um jeito neles por mim?",
+                "mensagemRecompensa": "Muito obrigado. Agora vou poder dormir de noite sossegado.",
+                "bravecois": 3500,
+                "exp": 3500,
+                "nivel": 21,
+                "monstros": [
+                    {
+                        "id": 7,
+                        "qtd": 25
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "avatar": "173",
+                "nome": "Investigue os Goblins",
+                "descricao": "Ol\u00e1 aventureiro, eu sou <b class='colorYellow'>Patriciomi<\/b>. Ouvi muitas hist\u00f3rias sobre voc\u00ea e gostaria de recruta-lo para uma miss\u00e3o. A alguns dias atras alguns goblins atacaram dois de nossos guerreiros. Acreditamos que essas criaturas est\u00e3o planejando atacarar Porto Sul em algum momento. Mas precisamos ter certeza para que possamos nos preparar. Os goblins se escondem nas cavernas. Ser\u00e1 que voc\u00ea poderia investigar?",
+                "mensagemRecompensa": "Hmmm... Interessante. Essas criaturas s\u00e3o mesmo perigosas. Vamos ficar de olho aberto.",
+                "bravecois": 5000,
+                "exp": 5000,
+                "nivel": 23,
+                "monstros": [
+                    {
+                        "id": 8,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "avatar": "17",
+                "nome": "Desarmar os Goblins",
+                "descricao": "Prazer em conhece-lo. Eu sou <b class=\"colorYellow\">DevLich<\/b> estou ajudando Patricioni e os outros guerreiros na luta contra os Goblins. Eles s\u00e3o muito perigosos. E est\u00e3o armados com muitas facas, clavas e... bombas. Bombas s\u00e3o perigosas. Acho que precisamos dar um jeito e diminuir a quantidade de armamento deles. Poderia me ajudar a entrar na caverna, derrotar alguns goblins e conseguir algumas bombas para n\u00f3s tambem?",
+                "mensagemRecompensa": "Perfeito.Agora estamos mais do que preparados caso eles tentem nos atacar.",
+                "bravecois": 5000,
+                "exp": 5000,
+                "nivel": 25,
+                "itens": [
+                    {
+                        "id": 4,
+                        "qtd": 20
+                    }
+                ],
+                "monstros": [
+                    {
+                        "id": 8,
+                        "qtd": 30
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "avatar": "173",
+                "nome": "Um novo inimigo",
+                "descricao": "Temos um problema. Parece que agora os goblins tem um novo aliado. Eles est\u00e3o trabalhando com ogros. Que s\u00e3o criaturas enormes e brutais. Teremos um problema se eles resolverem atacar agora. Poderia nos ajudar a afugentar alguns desses ogros? Afugentando alguns \u00e9 poss\u00edvel que os outros fujam tamb\u00e9m.",
+                "mensagemRecompensa": "\u00d3timo trabalho meu amigo. Agora os goblins com certeza n\u00e3o ter\u00e3o nenhuma chance..",
+                "bravecois": 7500,
+                "exp": 7500,
+                "nivel": 28,
+                "needQuest": 20,
+                "monstros": [
+                    {
+                        "id": 9,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "avatar": "105",
+                "nome": "As armas dos ogros",
+                "descricao": "Ol\u00e1, me chamo <b class='colorGreen'>Yoshi<\/b>. Ouvi falar de voc\u00ea. Voc\u00ea derrotou bastantes ogros n\u00e3o \u00e9 mesmo. Notou alguma coisa diferente enquanto lutava contra eles? Ouvi hist\u00f3rias de que as clavas que eles usam como armas d\u00e3o poderes especiais que nos deixam super fortes e grandes iguais a eles. Ser\u00e1 que voc\u00ea n\u00e3o poderia me trazer algumas aqui pra gente dar uma olhada?",
+                "mensagemRecompensa": "Hmmmm... Interessante. Ou melhor, nenhum pouco interessante. Parecem ser s\u00f3 simples peda\u00e7os de madeira mesmo.",
+                "bravecois": 8000,
+                "exp": 8000,
+                "nivel": 29,
+                "itens": [
+                    {
+                        "id": 607,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "avatar": "9",
+                "nome": "A casa mal assombrada",
+                "descricao": "Ol\u00e1, aqui quem fala \u00e9 <b class='colorBlue'>Uddra<\/b>. Ouvi boatos de algumas coisas estranhas acontecendo em uma certa casa depois da caverna. Alguns monstros, fantasmas e objetos inanimados. Tipo bonecas que se movem. Que tal dar uma olhada l\u00e1 e ve se consegue descobrir se os boatos s\u00e3o de verdade. Te pago alguns bravecoins se descobrir alguma coisa.",
+                "mensagemRecompensa": "Hmmmm... Interessante. Parece o tipo de lugar que eu n\u00e3o iria de jeito nenhum. Ainda bem que eu n\u00e3o fui l\u00e1.",
+                "bravecois": 10000,
+                "exp": 8100,
+                "nivel": 30,
+                "monstros": [
+                    {
+                        "id": 10,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "avatar": "172",
+                "nome": "A origem dos montros",
+                "descricao": "Ol\u00e1, eu sou o <b class='colorYellow'>Dr. Xam\u00e3<\/b>. Voc\u00ea j\u00e1 ouviu falar sobre uma casa mal assombrada perto das cavernas? \u00c9 um lugar perigoso e cheio de monstros e fantasmas que foram criados por um poderoso mago usando m\u00e1gia proibida. Pelo que descobri parece que esses monstros ganharam vida com pedras especiais. E eu adoraria colocar as minhas m\u00e3os em algumas dessas pedras para estudar mais sobre o seu comportamento e quem sabe usar isso ao nosso favor. Ser\u00e1 que voc\u00ea n\u00e3o poderia ir at\u00e9 a tal casa mal assombrada e pegar algumas para mim?",
+                "mensagemRecompensa": "Ah, n\u00e3o acredito. Voc\u00ea conseguiu mesmo. Muito obrigado. Isso vai me ajudar muito",
+                "bravecois": 10000,
+                "exp": 10000,
+                "nivel": 31,
+                "itens": [
+                    {
+                        "id": 610,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "avatar": "6",
+                "nome": "Um trabalho de arte incr\u00edvel",
+                "descricao": "Ol\u00e1, eu meu nom\u00e9 \u00e9 <b class='colorGreen'>Coralium<\/b>. Sou uma grande e famosa artista igual a muitos outros que moram aqui. E hoje eu estava pensando em fazer um trabalho de arte novo. Algo que ningu\u00e9m nunca tenha feito. Mas s\u00e3o poucos os recursos que encontro por aqui. Estava pensando em fazer algo com linhas. Voc\u00ea poderia arranjar um pouco de linha para mim? Mas n\u00e3o pode ser qualquer linha. Estava pensando em usar a linha de costura daquelas bonecas amaldi\u00e7oadas da casa mal assombrada.",
+                "mensagemRecompensa": "Muito obrigado aventureiro que eu n\u00e3o sei o nome. Voc\u00ea me ajudou muito",
+                "bravecois": 11000,
+                "exp": 11500,
+                "nivel": 31,
+                "itens": [
+                    {
+                        "id": 606,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "avatar": "9",
+                "nome": "A casa mal assombrada 2",
+                "descricao": "Ol\u00e1, aqui quem fala \u00e9 <b class='colorBlue'>Uddra<\/b> de novo. Lembra daquela casa mal assombrada que a gente tava conversando da outra vez? \u00c9, aquela onde tem as bonecas do mal. Ouvi dizer que tem tipo uns zumbis l\u00e1 tamb\u00e9m. \u00c9 verdade? Ser\u00e1 que se a gente morre um dia a gente vai virar zumbi e parar dentro da casa mal assombrada? Por que voc\u00ea n\u00e3o da uma passada por l\u00e1 e pergunta para alguns desses zumbis se \u00e9 isso mesmo.",
+                "mensagemRecompensa": "Entendi. Ent\u00e3o os zumbis n\u00e3o queriam conversa. \u00c9, acho que voc\u00ea fez bem em dar uma surra neles ent\u00e3o. Parecem perigosos. Eu \u00e9 que n\u00e3o boto os meus p\u00e9s nessa casa.",
+                "bravecois": 14000,
+                "exp": 14000,
+                "nivel": 33,
+                "needQuest": 24,
+                "monstros": [
+                    {
+                        "id": 11,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "avatar": "106",
+                "nome": "A batalha final",
+                "descricao": "Ol\u00e1, eu sou <b class='colorYellow'>RyanKamos<\/b>. Estou lutando junto com Patriomi e os outros contra os goblins. E finalmente parece que encontraram o rei deles na caverna. Precisamos de toda ajuda poss\u00edvel nessa luta. E como os outros me falaram muito bem de voc\u00ea e de suas incriveis habilidades de combate eu vim aqui pessoalmente te pedir ajuda.",
+                "mensagemRecompensa": "Finalmente acabou. Acho que agora esses goblins nos d\u00e3o um pouco de paz",
+                "bravecois": 15000,
+                "exp": 15000,
+                "nivel": 33,
+                "monstros": [
+                    {
+                        "id": 17,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "avatar": "172",
+                "nome": "A origem dos montros 2",
+                "descricao": "Ol\u00e1, \u00e9 o seu amigo o <b class='colorYellow'>Dr. Xam\u00e3<\/b> de novo. As minhas pesquisas nas pedras vermelhas que voc\u00ea me deu me ensinaram bastante. Mas ainda tem muito o que aprender antes de entendermos o que de fato esse novo poder \u00e9. Ouvi dizer que tem zumbis tamb\u00e9m dentro daquela casa. Eles tamb\u00e9m devem usar pedras especiais para se manterem de p\u00e9. Me ajudaria muito se voc\u00ea pudesse ir l\u00e1 e me trazer algumas delas tamb\u00e9m.",
+                "mensagemRecompensa": "Como eu pensei. Realmente s\u00e3o pedras diferentes das usadas pelas bonecas. Vou analiza-las para ver o que descubro.",
+                "bravecois": 11000,
+                "exp": 11000,
+                "nivel": 34,
+                "needQuest": 25,
+                "itens": [
+                    {
+                        "id": 608,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "avatar": "6",
+                "nome": "Um trabalho de arte incr\u00edvel 2",
+                "descricao": "Ol\u00e1, sou eu de novo. A <b class='colorGreen'>Coralium<\/b>. Faz um tempinho j\u00e1 que estou trabalhando naquele projeto incr\u00edvel e tals. Mais o problema \u00e9. Minhas linhas acabaram. E acho. Que seria interessante colocar mais algumas coisas a mais. Poderia encontrar mais linha e algumas coisas chamativas e brilhantes para mim?",
+                "mensagemRecompensa": "Muito obrigado. Gra\u00e7as a sua ajuda eu vou fazer a maior obra de arte de todas.",
+                "bravecois": 16000,
+                "exp": 16000,
+                "nivel": 35,
+                "needQuest": 26,
+                "itens": [
+                    {
+                        "id": 608,
+                        "qtd": 20
+                    },
+                    {
+                        "id": 606,
+                        "qtd": 35
+                    },
+                    {
+                        "id": 604,
+                        "qtd": 50
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "avatar": "9",
+                "nome": "A casa mal assombrada 3",
+                "descricao": "<b class='colorBlue'>Uddra<\/b> de novo falando. Esta aqui conversando com um amigo meu. o <b class='colorYellow'>Caio Varalta<\/b> e ele me disse que um outro amigo dele contou que outro cara disse que o primo dele viu um fantasma naquela casa mal assombrada l\u00e1. Ser\u00e1 que \u00e9 verdade? Voc\u00ea j\u00e1 viu algum fantasma? Por que n\u00e3o da mais uma passada l\u00e1 na tal casa e descobre se isso \u00e9 verdade mesmo? Seria muito legal se fosse.",
+                "mensagemRecompensa": "Voc\u00ea realmente viu os fantasmas? Que legal. Fantasmas s\u00e3o muito legais. Mas perigosos. Voc\u00ea devia tomar mais cuidado. E n\u00e3o sair por ai visitando esses lugares perigosos. Vai acabar morrendo qualquer dia desses e virar um fantasma tamb\u00e9m, ou zumbi.",
+                "bravecois": 13000,
+                "exp": 13000,
+                "nivel": 38,
+                "needQuest": 27,
+                "monstros": [
+                    {
+                        "id": 12,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "avatar": "172",
+                "nome": "A origem dos montros 3",
+                "descricao": "<b class='colorYellow'>Dr. Xam\u00e3<\/b> de novo. Os meus estudos sobre as pedras m\u00e1gicas esta se mostrando cada vez mais interessante. Mais muitas perguntas ainda rondam minha cabe\u00e7a. Como se uma pe\u00e7a ainda estivesse faltando. O <b class='colorBlue'>Uddra<\/b> me contou que o <b class='colorYellow'>Caio Varalta<\/b> disse pra ele que um cara ouviu de uma outra pessoa que o primo dele viu um fantasma naquela casa. Se isso for verdade talvez seja a pe\u00e7a que esta faltando. Voc\u00ea poderia investigar para mim e ver se esses tais fantasmas possuem pedras tamb\u00e9m?",
+                "mensagemRecompensa": "Como eu pensei. Realmente exite um terceiro tipo de pedra. Isso vai me ajudar muito",
+                "bravecois": 17500,
+                "exp": 17500,
+                "nivel": 39,
+                "needQuest": 29,
+                "itens": [
+                    {
+                        "id": 609,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "avatar": "168",
+                "nome": "Uma caminhada arruinada",
+                "descricao": "Ol\u00e1, eu me chamo <b class='colorPink'>Aika-chan<\/b>. Me disseram que voc\u00ea pode me ajudar a acabar com alguns monstros se precisar. Ent\u00e3o, \u00e9 o seguinte. Eu estava caminhando tranquilamente pelas monstanhas procurando inspira\u00e7\u00e3o pa meus textos quando de repente algumas ganhas me viram e come\u00e7aram a correr atr\u00e1s de mim. E isso me assustou muito. Isso mesmo, eu n\u00e3o estou brincando. Eram galinhas. Ser\u00e1 que voc\u00ea poderia dar uma surra em algumas delas para que eu possa me sentir melhor?",
+                "mensagemRecompensa": "Muito obrigado aventureiro(a). Vou escrever um poema incr\u00edvel para voc\u00ea como gratid\u00e3o",
+                "bravecois": 20000,
+                "exp": 20000,
+                "nivel": 40,
+                "monstros": [
+                    {
+                        "id": 13,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "avatar": "115",
+                "nome": "Piratas",
+                "descricao": "Ol\u00e1 viajante, eu sou <b class='colorGreen'>Dobberman<\/b>. Me mandaram vir falar com voc\u00ea por que dizem que voc\u00ea tem incri\u00edveis habilidades de combates e consegue resolver qualquer problema. Bem, tenho um problema para voc\u00ea. Na verdade, um problem\u00e3o. J\u00e1 ouviu falar no <i>Capit\u00e3o Hammerhead<\/i>? Ele \u00e9 um pirata muito perigoso que passa a vida saqueando cidades e portos como o nosso. E recentemente ouvi boatos de que piratas do seu bando foram vistos na praia. Voc\u00ea poderia investigar isso para ver se \u00e9 verdade. E se for... Bom disseram que voc\u00ea luta bem. Acho que poderia dar um jeito nisso.",
+                "mensagemRecompensa": "Como eu pensei. Esses piratas s\u00e3o um problema. Vamos ficar de olho.",
+                "bravecois": 22000,
+                "exp": 22000,
+                "nivel": 41,
+                "monstros": [
+                    {
+                        "id": 26,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "avatar": "8",
+                "nome": "Em busca de penas incr\u00edveis",
+                "descricao": "Ol\u00e1, me chamo <b class='colorRoxo'>Nypo<\/b>. Sou uma grande artista que se mudou recentemente para Porto Sul. Ouvi dizer que voc\u00ea \u00e9 o tipo de pessoa que ajuda artistas a conseguirem mat\u00e9ria prima para suas artes em troca de exp e bravecoins. Bom, tenho um trabalho para voc\u00ea ent\u00e3o. Estive andando pelas monstanhas a algum tempo atr\u00e1s e vi alguns passaros com uma penas muito bonitas. Dai pensei: seria muito legal usar essas penas em algum desenho, roupa, arma ou algo do tipo. Bom, mas o \u00fanico problema \u00e9, esses passaros s\u00e3o perigosos demais. E eu n\u00e3o estoua  fim de arriscar a minha vida para conseguir algumas penas por mais bonitas que sejam. Prefiro pagar algu\u00e9m para pega-las para mim. Eai? Voc\u00ea topa?",
+                "mensagemRecompensa": "Ah, voc\u00ea conseguiu mesmo. Muito obrigada. Essas penas s\u00e3o muito mais bonitas de perto",
+                "bravecois": 30000,
+                "exp": 30000,
+                "nivel": 42,
+                "itens": [
+                    {
+                        "id": 605,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 36,
+                "avatar": "115",
+                "nome": "Piratas 2",
+                "descricao": "Ol\u00e1 viajante, sou eu <b class='colorGreen'>Dobberman<\/b> de novo. Mas noticias. Parece que os piratas atacaram de novo. E dessa vez saquearam alguns produtos raros da loja dos irm\u00e3os Grimble e Gramble. N\u00e3o podemos deixar isso passar. Precisamos contra-atacar antes que eles tentem algo de novo.",
+                "mensagemRecompensa": "Muito obrigado pela sua ajuda. Com certeza esses piratas v\u00e3o pensar duas vezes antes de tentar brigar com a gente de novo.",
+                "bravecois": 29000,
+                "exp": 29000,
+                "nivel": 43,
+                "needQuest": 34,
+                "monstros": [
+                    {
+                        "id": 26,
+                        "qtd": 50
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "avatar": "16",
+                "nome": "Harpias",
+                "descricao": "Ol\u00e1, me chamo <b class='colorLaranja'>Resque<\/b>. Sabe o que eu vi esses dias? Uma harpia. N\u00e3o. N\u00e3o a carta de Yu-gi-oh. Eu vi uma harpia de verdade nas montanhas. Legal n\u00e9? Mas perigoso. Elas s\u00e3o bonitas, mas podem te matar se n\u00e3o tomar cuidado. Seria bom se algu\u00e9m pudesse ir falar com elas e garantir que elas n\u00e3o ataquem mais nenhum viajante que passa despercebido pelas montanhas.",
+                "mensagemRecompensa": "Ah, ent\u00e3o voc\u00ea encontrou elas mesmo. Espero que n\u00e3o tenha se machucado muito.",
+                "bravecois": 29000,
+                "exp": 29000,
+                "nivel": 43,
+                "monstros": [
+                    {
+                        "id": 14,
+                        "qtd": 20
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 1,
+                        "qtd": 5
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 5
+                    }
+                ]
+            },
+            {
+                "id": 38,
+                "avatar": "115",
+                "nome": "Piratas 3",
+                "descricao": "Finalmente. O <i>Capit\u00e3o Hammerhead<\/i> foi visto. Alguns de nossos guerreiros viram o velho homem na praia junto com alguns de seus capangas. E ele n\u00e3o parecia estar planejando coisa boa. Esse \u00e9 a nossa chance de impedi-lo.",
+                "mensagemRecompensa": "Finalmente. Porto Sul esta novamente livre das amea\u00e7as de piratas. E dessa vez o porto n\u00e3o terminou alagado. Muito obrigado pela sua ajuda.",
+                "bravecois": 40000,
+                "exp": 40000,
+                "nivel": 45,
+                "needQuest": 36,
+                "monstros": [
+                    {
+                        "id": 27,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 8,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 9,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 10,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 11,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "avatar": "114",
+                "nome": "Salvem os legumes",
+                "descricao": "Ol\u00e1, me chamo <b class='colorGreen'>Lycanimus<\/b>. Voc\u00ea \u00e9 o humano que esta ajudando o Dobberman com os piratas n\u00e3o \u00e9. Sim. Todo Porto Sul j\u00e1 esta sabendo da hist\u00f3ria. E eu vim aqui para te pedir ajuda. Na verdade, um amigo veio me pedir para te pedir ajuda. O nome dele \u00e9 <b class='colorLaranja'>Dr.XGB<\/b>. E bem. Ele \u00e9, como eu posso explicar... Uma cenoura. E como qualquer cenoura ele quer proteger todos os seus amigos legumes e frutas, etc. Quando ele ouviu que os piratas est\u00e3o usando cebolas como armas e se alimentando de seus amigos batatas ele ficou muito bravo e veio me pedir para encontrar algu\u00e9m que salve as batas e as cebolas das garras dos piratas. Bom \u00e9 isso. O que me diz?",
+                "mensagemRecompensa": "Muito obrigado. Meu amigo vai ficar muito feliz ao saber que seus amigos est\u00e3o a salvo.",
+                "bravecois": 40000,
+                "exp": 40000,
+                "nivel": 45,
+                "itens": [
+                    {
+                        "id": 618,
+                        "qtd": 20
+                    },
+                    {
+                        "id": 7,
+                        "qtd": 20
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 1,
+                        "qtd": 10
+                    },
+                    {
+                        "id": 2,
+                        "qtd": 10
+                    },
+                    {
+                        "id": 10,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 11,
+                        "qtd": 1
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "avatar": "174",
+                "nome": "Dinossauros??",
+                "descricao": "Ol\u00e1, me chamo <b class='colorYellow'>Takkun<\/b>. Cara. Sabe o que eu vi ontem? Um dinossauro. N\u00e3o. N\u00e3o era o Yoshi. E eu n\u00e3o estava vendo coisas. Passou voando pertinho da minha cabe\u00e7a. Se eu n\u00e3o tivesse me escondido ele teria me pegado. Se n\u00e3o acredita vai la ver. E se n\u00e3o for pedir muito. De um jeito neles para que a gente possa andar em seguran\u00e7a pelas montanhas de novo.",
+                "mensagemRecompensa": "Falei que eram de verdade. Mas de qualquer forma obrigado por tornar as monstanhas um pouco mais seguras",
+                "bravecois": 40000,
+                "exp": 40000,
+                "nivel": 47,
+                "monstros": [
+                    {
+                        "id": 15,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "avatar": "164",
+                "nome": "O grande p\u00e1ssaro",
+                "descricao": "Ol\u00e1, me chamo <b class='colorLaranja'>Eranot<\/b>. Ontem, enquanto eu andava pelas monstanhas com alguns amigos me deparei com alguo muito assustador. Era um grande passaro colorido. Maior do que todos os que eu j\u00e1 tinha visto. Maior que qualquer galinha, Harpia ou passaro que parece um dinossauro que habita naquelas montanhas. Isso me assustou bastante. E fico imaginando se algum dia esses pass\u00e1ros gigantes resolverem atacar algu\u00e9m que passa despercebido por ali. Seria muito bom se voc\u00ea meu amigo, pudesse dar um jeito nisso para a gente. As montanhas seriam um lugar muito melhor se voc\u00ea fizesse isso.",
+                "mensagemRecompensa": "Muito obrigado. Gra\u00e7as a voc\u00ea n\u00e3o teremos nenhum problema com essas criaturas assustadoras.",
+                "bravecois": 40000,
+                "exp": 40000,
+                "nivel": 49,
+                "monstros": [
+                    {
+                        "id": 16,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "avatar": "21",
+                "nome": "Esqueletos",
+                "descricao": "Ol\u00e1, me chamo <b class='colorLaranja'>Brandt<\/b>. Voc\u00ea j\u00e1 ouviu falar do Lorde das Sombras? Ele \u00e9 um mago muito poderoso que habita em um grande castelo depois das montanhas. Ele faz muitas coisas terriveis durante sua vida e muitos her\u00f3is partiram para o seu castelo para tentar para-lo. Mas em v\u00e3o. E todos esses her\u00f3is foram revividos usando magia negra e agora lutam pelo Lorde das Sombras. Isso \u00e9 imperdoav\u00e9l. Voc\u00ea poderia me ajudar em uma miss\u00e3o. Eu estava pensando em ir para o castelo do Lorde e derrotar esses her\u00f3is mortos para enfim dar a eles um descan\u00e7o digno que merecem.",
+                "mensagemRecompensa": "Muito obrigado pela sua ajuda. Sinto que agora a alma desses her\u00f3is esta em paz.",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "monstros": [
+                    {
+                        "id": 18,
+                        "qtd": 20
+                    },
+                    {
+                        "id": 19,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "avatar": "172",
+                "nome": "Magia Negra",
+                "descricao": "Aqui  \u00e9 o <b class='colorYellow'>Dr. Xam\u00e3<\/b> de novo. A quanto tempo n\u00e3o \u00e9 mesmo? Estive analizando as pedras que voc\u00ea me deu. Foi muito interessante e descobri muita coisa sobre esse tipo de magia. Mas antes de podermos usar isso a nosso favor tem mais alguma coisa que precisamos estudar. O Lorde das Sombras usa um tipo muito parecido de magia com o que a gente esta estudando. E pelo que descobri., ele usa espelhos m\u00e1gicos para dar vida aos mortos. Muito interessante n\u00e3o. Precisamos botar as m\u00e3os em algum desses espelhos. Voc\u00ea poderia roubar alguns para mim?",
+                "mensagemRecompensa": "Muito obrigado de novo. Agora temos tudo o que precisamos para usar a magia negra a nosso favor. E de repente, talvez at\u00e9 consigamos quebrar essa enorme quantidade de maldi\u00e7\u00f5es espalhadas pelo mundo.",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "needQuest": 32,
+                "itens": [
+                    {
+                        "id": 611,
+                        "qtd": 20
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "avatar": "152",
+                "nome": "O anci\u00e3o",
+                "descricao": "Ol\u00e1, me chamo <b class='colorYellow'>AbsoluteXandy<\/b>. Voc\u00ea j\u00e1 ouviu falar sobre o grande Anc\u00e3o da florestea? \u00c9 uma \u00e1rvore ancestral que dizer ter mais de 2 milh\u00f5es de anos. Ela protege a floresta e seus habitantes de invasores. Alguns explorados dizem ter visto a estranha criatura a alguns meses. Ser\u00e1 que \u00e9 verdade essa hist\u00f3ria toda? Voc\u00ea poderia investigar para a gente n\u00e3o \u00e9? Ouvi dizer que voc\u00ea gosta de enfrentar monstros poderosos.",
+                "mensagemRecompensa": "Ent\u00e3o ela existe mesmo? Que legal. Eu queria te-la visto pessoalmente. Deve ser incr\u00edvel.",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "monstros": [
+                    {
+                        "id": 20,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 10,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 45,
+                "avatar": "125",
+                "nome": "A grande serpente dos Mares",
+                "descricao": "Ol\u00e1, aqui quem fala \u00e9 o <b class='colorBlue'>Robercleiton<\/b>. Me disseram que voc\u00ea porderia me ajudar. Seguinte. Eu estava ali na praia tranquilamente pescando com o 'Valor' quando do nada um monstro apareceu. N\u00e3o era nenhuma lagosta, homem peixe ou polvo ou qualquer monstro que a gente esta acostumado a ver na praia. Era uma serpente. Enoooorme. Com dentes afiados e escamas duras como pedras. N\u00e3o tem como a gente continuar pescando naquela praia com um mostro desses por l\u00e1. Me falaram que voc\u00ea \u00e9 bom em eliminar essas criaturas. Ent\u00e3o vim aqui te chamar. Ent\u00e3o? O que me diz?",
+                "mensagemRecompensa": "Muito obrigado. Voc\u00ea \u00e9 mesmo t\u00e3o incri\u00edvel quanto me falaram. Agora vamos poder pescar em paz de novo..",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "monstros": [
+                    {
+                        "id": 21,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 9,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "avatar": "52",
+                "nome": "A Batalha Final (Agora \u00e9 s\u00e9rio)",
+                "descricao": "Ol\u00e1, me chamo <b class='colorAzulCondado'>Rafael_Sol_MAKER<\/b>. Voc\u00ea \u00e9 o guerreiro poderoso que nos ajudou na luta contra os goblins n\u00e3o \u00e9 mesmo? Bom, n\u00e3o acabou. Achamos que os goblins iriam desistir depois que diminuimos os n\u00fameros deles, roubamos seus equipamentos e demos uma surra nos ogros. Mas eles s\u00e3o mais persistentes do que imaginavamos. E com algum tipo de magia antiga eles criaram um novo monstro para nos atacar. Um golem feito de pedra que destr\u00f3i tudo pela frente. Os outros n\u00e3o tiveram chances. Por isso viemos pedir ajuda a voc\u00ea. Essa ser\u00e1 a batalha decisiva contra os goblins. A batalha para acabar de vez com essa guerra. Eai? O que me diz?",
+                "mensagemRecompensa": "Finalmente. Acabou. Os goblins v\u00e3o nos deixar em paz agora.",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "needQuest": 22,
+                "monstros": [
+                    {
+                        "id": 22,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 8,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "avatar": "47",
+                "nome": "Morte a todos os morcegos",
+                "descricao": "Ol\u00e1, aqui \u00e9 o <b class='colorRoxo'>Eliyud<\/b> de novo. A quanto tempo n\u00e3o \u00e9 meu amigo. Como andam os projetos? Eu acabei de descobrir uma coisa incri\u00edvel. A descoberta do s\u00e9culo. Eu descobri onde mora o l\u00edder dos morcagos. Sim. O cara em que todos os morcegos desse mundo se inspiram. N\u00e3o, n\u00e3o \u00e9 o Batman. Mas o Dracula. Ele mora na casa mal assombrada. Seria muito legal da sua parte se voc\u00ea pudesse derrota-lo para mim. Isso acabaria com os sonhos de todos os morcegos de todo o mundo. E do Batman tamb\u00e9m. Eai, o que me diz?",
+                "mensagemRecompensa": "Muito obrigado. Agora Porto Sul ser\u00e1 um lugr cada vez melhor sem morcegos atacando pessoas por ai fingindo ser o Dracula.",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "needQuest": 19,
+                "monstros": [
+                    {
+                        "id": 23,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 11,
+                        "qtd": 10
+                    }
+                ]
+            },
+            {
+                "id": 48,
+                "avatar": "38",
+                "nome": "O Grande Drag\u00e3o",
+                "descricao": "Ol\u00e1, aqui \u00e9 o <b class='colorGreen'>Cross Maker<\/b>. Voc\u00ea \u00e9 o cara poderoso que anda matando muitos montros fortes por ai n\u00e3o \u00e9 mesmo? Bom... tenho uma miss\u00e3o apra voc\u00ea. Na verdade. A maior miss\u00e3o da sua vida. J\u00e1 ouviu falar sobre o grande drag\u00e3o. N\u00e3o. N\u00e3o estou falando do <b color='colorAzulCondado'>Scar<\/ b>. \u00c9 uma fera terr\u00edvel que mora na montanha. Mas especificamente no topo da montanha. Onde quase ningu\u00e9m consegue chegar. Ele voa por ai. Rugindo e cuspindo fogo e matando cavaleiros por toda a parte. E ningu\u00e9m conseguiu derrota-lo at\u00e9 agora. Mas voc\u00ea meu amigo. Voc\u00ea eu acho que consegue. Ouvi hist\u00f3rias sobre voc\u00ea. E acho que pode ser a nossa esperan\u00e7a. Eai, o que me diz? Aceita o desafio?",
+                "mensagemRecompensa": "Eu sabia que voc\u00ea conseguiria meu amigo. Finalmente, Porto Sul esta livre daquela fera.",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "monstros": [
+                    {
+                        "id": 24,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 8,
+                        "qtd": 5
+                    },
+                    {
+                        "id": 9,
+                        "qtd": 5
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "avatar": "11",
+                "nome": "O Lorde no castelo",
+                "descricao": "Ol\u00e1, aqui \u00e9 o <b class='colorRed'>Lord Wallace<\/b>.Voc\u00ea j\u00e1 deve ter ouvido hist\u00f3rias sobre o Lorde das Sombras n\u00e3o \u00e9 mesmo? Ele \u00e9 um terr\u00edvel mago que se apossou do castelo de um rei que vivia depois das montanhas e vem espalhando maldi\u00e7\u00f5es por toda a parte nesse mundo. J\u00e1 esta na hora de algu\u00e9m para-lo. Voc\u00ea me ajudaria nisso? Invadir o castelo dessa criatura e expulsa-lo de l\u00e1 trazendo assim a paz de volta a nosso reino?",
+                "mensagemRecompensa": "Muito obrigado. Voc\u00ea realmente \u00e9 o melhor her\u00f3i que j\u00e1 tivemos",
+                "bravecois": 50000,
+                "exp": 50000,
+                "nivel": 50,
+                "monstros": [
+                    {
+                        "id": 25,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 8,
+                        "qtd": 2
+                    },
+                    {
+                        "id": 9,
+                        "qtd": 2
+                    },
+                    {
+                        "id": 10,
+                        "qtd": 2
+                    },
+                    {
+                        "id": 11,
+                        "qtd": 2
+                    }
+                ]
+            },
+            {
+                "id": 50,
+                "avatar": "175",
+                "nome": "A \u00faltima miss\u00e3o",
+                "descricao": "Ouvi hist\u00f3rias muito interessantes sobre voc\u00ea meu amigo. O her\u00f3is que derrotou os Goblins e suas artimanhas. Que expulsou o temivel pirata HammerHead de Porto Sul. Que enfrentou sem medo os perigos da casa mal assombrada e muitas outras hist\u00f3rias. E bom. Creio que esteja na hora de seu desafio final. Tenho aqui uma lista de itens para voc\u00ea coletar. Se voc\u00ea for capaz de me trazer tudo voc\u00ea ser\u00e1 oficialmente reconhecido como um dos her\u00f3is lend\u00e1rios de Porto Sul. Eai? o que me diz? Vai aceitar o desafio?",
+                "mensagemRecompensa": "Eu tinha certeza de que voc\u00ea iria conseguir meu amigo. Meus parab\u00e9ns. Aqui vai uma pequena recompensa pelo seu esfor\u00e7o.",
+                "bravecois": 100000,
+                "exp": 100000,
+                "nivel": 50,
+                "itens": [
+                    {
+                        "id": 612,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 613,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 614,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 615,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 616,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 617,
+                        "qtd": 1
+                    }
+                ],
+                "recompansaItem": [
+                    {
+                        "id": 116,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 117,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 120,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 122,
+                        "qtd": 1
+                    },
+                    {
+                        "id": 124,
+                        "qtd": 1
+                    }
+                ]
+            }
+        ]
+    }
+}
